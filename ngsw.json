@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1611226721106,
+  "timestamp": 1611236649991,
   "index": "/musikkapelle-toblach-stationen/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/musikkapelle-toblach-stationen/favicon.ico",
         "/musikkapelle-toblach-stationen/index.html",
-        "/musikkapelle-toblach-stationen/main.f2dfc1e833a7062989f9.js",
+        "/musikkapelle-toblach-stationen/main.d4b269109c0a95550ed1.js",
         "/musikkapelle-toblach-stationen/manifest.webmanifest",
         "/musikkapelle-toblach-stationen/polyfills.3116b8e9dbb90fea460e.js",
         "/musikkapelle-toblach-stationen/runtime.0e49e2b53282f40c8925.js",
@@ -52,8 +52,8 @@
     "/musikkapelle-toblach-stationen/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/musikkapelle-toblach-stationen/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/musikkapelle-toblach-stationen/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/musikkapelle-toblach-stationen/index.html": "4ca23152e0f22359189b688acbaf6191dca4fdd5",
-    "/musikkapelle-toblach-stationen/main.f2dfc1e833a7062989f9.js": "a73a2312ecb9d16f4ae4c3c4d084d5626a02a64f",
+    "/musikkapelle-toblach-stationen/index.html": "92ea83777d71b223e8d4622b5eb246abd53f7236",
+    "/musikkapelle-toblach-stationen/main.d4b269109c0a95550ed1.js": "a73a2312ecb9d16f4ae4c3c4d084d5626a02a64f",
     "/musikkapelle-toblach-stationen/manifest.webmanifest": "1f3b0de36c4165ded23d2f1206aa8df6c50c5d6e",
     "/musikkapelle-toblach-stationen/polyfills.3116b8e9dbb90fea460e.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
     "/musikkapelle-toblach-stationen/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
