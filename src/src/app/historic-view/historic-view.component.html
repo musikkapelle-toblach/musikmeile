@@ -1,0 +1,19 @@
+<h2 *ngIf="title">{{title}}</h2>
+
+<section id="cd-timeline" class="cd-container">
+  <div class="cd-timeline-block" *ngFor="let item of historicEntries">
+    <div class="cd-timeline-img cd-movie"></div>
+    <div class="cd-timeline-content">
+      <h2 [innerHTML]="item.title"></h2>
+      <p *ngIf="item.body" [innerHTML]="item.body"></p>
+      <ng-template [ngIf]="item.from === item.to" [ngIfThen]="oneYear"
+                   [ngIfElse]="multipleYears"></ng-template>
+      <ng-template #oneYear>
+        <span class="cd-date">{{item.from}}</span>
+      </ng-template>
+      <ng-template #multipleYears>
+        <span class="cd-date">{{item.from}} - {{item.to}}</span>
+      </ng-template>
+    </div>
+  </div>
+</section>

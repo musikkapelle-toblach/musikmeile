@@ -6,6 +6,7 @@
     heutigen Musikkapelle lässt sich kaum in wenigen Worten beschreiben. Von der ersten Erweiterungen des
     Instrumentariums über den Ankauf neuer Instrumente in Normalstimmung 1912 bis zu seiner heutigen Form entwickelt
     sich der Klangkörper stetig weiter.
+  </p><p>
     Die Musikkapelle Toblach hat aktuell das große Glück, ein vollständig besetztes symphonisches Blasorchester zu sein.
     Sie verfügt über alle notwendigen Instrumente, um große Blasorchesterwerke aufführen zu können. Neben Klarinetten,
     Flöten, Trompeten, Kornetten, Tenören und Baritönen, Posaunen, Bässen, Hörnern und einer wahren Flut an Schlagwerk
@@ -18,15 +19,18 @@
   <p> Musik auf hohem Niveau zu spielen ist seit jeher Anliegen der Musikkapelle Toblach. Dazu gehören nicht nur
     außergewöhnliche Konzerte, sondern auch die Teilnahme an Wertungsspielen, die von verschiedenen europäischen
     Blasmusikverbänden organisiert werden.
+  </p><p>
     “Die Wertungsspiele […] dienen zur Hebung des musikalischen Niveaus der Blasorchester, zur Intensivierung der
     Probearbeit in den Blasmusikkapellen, zur Feststellung des musikalischen Leistungsstandes der Orchester, zur
     Verbreitung gehaltvoller, empfehlenswerter Blasmusikliteratur und zur Förderung des zeitgenössischen
     Blasmusikschaffens, sowie neuer richtungsweisender Tendenzen in der Blasmusikkultur der Gegenwart.” (Homepage
     Österreichischer Blasmusikverband)
+</p><p>
     Bereits 1950 beteiligt sich die Kapelle zum ersten Mal an einem Wettbewerb. Obwohl sich die Bewertungsmodi im Laufe
     der Zeit ändern, kann man zusammenfassend sagen, dass die Musikkapelle stets nach dem Höchsten strebte. Ob in der
     Kategorie „sehr schwere Musik“ oder ,,erster Rang mit Auszeichnung” in der Höchststufe, die Ergebnisse können sich
     jedes Mal sehen lassen und sind Lohn für mühevolle Probenarbeit.
+</p><p>
     Seit 2007 spielt die Musikkapelle Toblach in der Kunststufe (Kategorie D), wo sie 2007, 2014 und 2018 jeweils
     hervorragende Ergebnisse bei Wertungsspielen erzielt.
   </p>
@@ -34,21 +38,21 @@
   <h2>(be)zeichnend</h2>
   <p>
     Um die gewünschten Ergebnisse zu erzielen braucht es Musikant*innen, vor allem aber Kapellmeister, die sich für
-    innovative und neue Probentechniken begeistern lassen und diese mit ihren Kapelle umsetzen.
+    innovative und neue Probentechniken begeistern lassen und diese mit ihren Kapelle umsetzen.</p><p>
     Viele Persönlichkeiten mit dieser Fähigkeit haben die Geschichte der Musikkapelle Toblach geprägt und prägen sie
     heute noch. So ändern sich mit den verschiedenen Kapellmeistern auch die Methoden: Neue Sitzordnungen werden
     ausprobiert, die Einteilung des Probelokals gar um 90° gedreht, für kurze Zeit die Plätze getauscht oder auch einmal
-    ganz ohne Kapellmeister gespielt.
+    ganz ohne Kapellmeister gespielt.</p><p>
     1988 werden erstmals Aufnahmen der Proben gemacht und daraufhin gemeinsam angehört und besprochen. 2002 wird das
     erste Probenwochenenden abgehalten. In der Vorbereitung auf die Festkonzerte haben die Kapellmeister Pepi Fauster
     und Sigisbert Mutschlechner nicht nur selber gearbeitet, sondern sich namhafte Referent*innen geholt, die der
     Musikkapelle den letzten Schliff geben. In Voll-, Register- und Kleinregisterproben wird mit dem Fachmann für das
-    Schlagzeug oder mit der Fachfrau für das Fagott fleißig geprobt.
+    Schlagzeug oder mit der Fachfrau für das Fagott fleißig geprobt.</p><p>
     Die Bereitschaft der Musikant*innen, den Ideen und Neuerungen zu folgen, zeigt sich z.B. daran, dass sich die
     Kapelle bereits 1960 zum ersten Mal als Übungskapelle für einen Kapellmeisterworkshop zur Verfügung stellt, an dem
     der damalige Kapellmeister teilnimmt. Das Fazit lautet: ,,Es mag ein Opfer gekostet haben 10 Abende nach Innichen zu
     fahren, doch jeder einzelne hatte Gelegenheit verschiedenes zu lernen.” (Musikchronik, Bd. 2, 3.1.1960) In diesem
-    Jahr wird der Lehrgang von sage und schreibe 89 Kapellmeisteranwärtern besucht.
+    Jahr wird der Lehrgang von sage und schreibe 89 Kapellmeisteranwärtern besucht.</p><p>
 
     Die Tradition der Übungskapelle lebt bis heute. Viele angehende Kapellmeister*innen haben mit der Musikkapelle
     Toblach Erfahrungen gesammelt und mit ihren unterschiedlichen Persönlichkeiten und Dirigierstilen bleibende
@@ -56,25 +60,8 @@
 
   </p>
 
-  <h2>Kapellmeister</h2>
+  <app-historic-view title="Kapellmeister" [historicEntries]="conductors"></app-historic-view>
 
-  <section id="cd-timeline" class="cd-container">
-    <div class="cd-timeline-block" *ngFor="let conductor of conductors">
-      <div class="cd-timeline-img cd-movie"></div>
-      <div class="cd-timeline-content">
-        <h2>{{conductor.name}}</h2>
-        <p *ngIf="conductor.additionalInformation">{{conductor.additionalInformation}}</p>
-        <ng-template [ngIf]="conductor.from === conductor.to" [ngIfThen]="oneYear"
-                     [ngIfElse]="multipleYears"></ng-template>
-        <ng-template #oneYear>
-          <span class="cd-date">{{conductor.from}}</span>
-        </ng-template>
-        <ng-template #multipleYears>
-          <span class="cd-date">{{conductor.from}} - {{conductor.to}}</span>
-        </ng-template>
-      </div>
-    </div>
-  </section>
   <h2>räumlich</h2>
   <p> In den 200 Bestandsjahren der Kapelle erlebte diese viele Veränderungen, vor allem wächst die kleine Formation um
     den Gründer Sebastian Baur ständig. Am Anfang steht die Erweiterung des Instrumentariums, dann neue Wege der
@@ -88,7 +75,7 @@
     Grundschule 2019 wird unter Obmann Stefan Taschler auch das Probelokal saniert. Es bietet neben einem großen
     Probenraum, einen kleineren Überaum, ein Trachten- und Notenarchiv und einen Aufenthaltsraum. Das ausgefeilte
     akustische Konzept ermöglicht Probenarbeit auf höchstem Niveau.
-
+  </p><p>
     Nicht nur die Geschichte des Proberaums ist für die musikalische Entwicklung der Kapelle bezeichnend, auch die
     “Aufführungsorte” verbessern sich stetig. So kommt es 1966 zur Einweihung des neuen Pavillons im Dorfzentrum,
     welcher einen schönen und passenden Rahmen für die Sommerkonzerte der Musikkapelle bietet.
@@ -106,7 +93,7 @@
     technologische Möglichkeiten sorgen zusätzlich für Veränderungen, so entsteht 1955 die erste Tonbandaufnahme.
     Mit Kapellmeister Alois Strobl wird 1957 das erste “Frühjahrskonzert” der Kapelle auf dem Postplatz gespielt. Heute
     ist dieses Konzert als Festkonzert bekannt und einer der Höhepunkte des Musikjahres.
-
+  </p><p>
     In den letzten Jahrzehnten gibt es eine Reihe von außergewöhnlichen Konzerten: Ein Konzert am Toblacher See mit
     Wasserspielen der Feuerwehr Toblach 1989, verschiedene Kirchenkonzerte, ein Fastenkonzert 2007, die
     Promenadenkonzerte in Innsbruck 2009 und 2015, das Herbstkonzert „Wir schreiten auf und ab - Musik und Literatur“ -
@@ -120,8 +107,10 @@
     immer begeistert. Für so viel Innovation und Einsatz darf sich die Kapelle im Jahr 2014 über den Blasmusikpreis des
     Landes Südtirol freuen, der für besondere Leistungen vergeben wird.
 
+</p>
 
-    ___________________________________________________________________________
+
+  <h1>___________________________________________________________________________
 
     Station 4 - Untertitel
     Bild Pepi: Kontrabass beim Festkonzert
@@ -138,7 +127,7 @@
     Bild 5: Ganz in Schwarz - Diplomkonzert des Kapellmeisters (2014)
     Bild 6: Feierlichkeiten UNESCO Weltnaturerbe (2015)
     Bild 7: Gemeinschaftskonzert mit der Musikkapelle St. Georgen (2019)
-  </p>
+  </h1>
 
 
 </div>
