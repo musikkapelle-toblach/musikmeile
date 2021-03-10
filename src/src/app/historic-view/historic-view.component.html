@@ -4,7 +4,7 @@
   <div class="cd-timeline-block" *ngFor="let item of historicEntries">
     <div class="cd-timeline-img cd-movie"></div>
     <div class="cd-timeline-content">
-      <h2 [innerHTML]="item.title"></h2>
+      <h2 class="title" [innerHTML]="item.title"></h2>
       <p *ngIf="item.body" [innerHTML]="item.body"></p>
       <ng-template [ngIf]="item.from === item.to" [ngIfThen]="oneYear"
                    [ngIfElse]="multipleYears"></ng-template>

@@ -18,7 +18,7 @@ export class Stage3Component implements OnInit {
     {title: 'Karl Stoll',    from: 1988, to: 1996  },
     {title: 'Felix Steinwandter',    from: 1997, to: 2006  },
     {title: 'Hermann Rienzner',    from: 2006, to: 2015  },
-    {title: 'Stefan Taschler',    from: 1879, to: undefined  },
+    {title: 'Stefan Taschler',    from: 2016, to: undefined  },
   ];
   ngOnInit(): void {
   }

@@ -1,0 +1,9 @@
+@import "src/custom";
+
+.custom-blockquote {
+  @extend .border-left;
+  @extend .border-bottom;
+  @extend .border-primary;
+  @extend .p-2;
+  border-bottom-left-radius: 10px;
+}

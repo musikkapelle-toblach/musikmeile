@@ -14,6 +14,7 @@ import { Stage6Component } from './stages/stage6/stage6.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { HistoricViewComponent } from './historic-view/historic-view.component';
+import { BlockquoteComponent } from './blockquote/blockquote.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HistoricViewComponent } from './historic-view/historic-view.component';
     Stage5Component,
     Stage6Component,
     HomeComponent,
-    HistoricViewComponent
+    HistoricViewComponent,
+    BlockquoteComponent
   ],
   imports: [
     BrowserModule,
