@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1618856449126,
-  "index": "/musikmeile/index.html",
+  "timestamp": 1618857119518,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,14 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/musikmeile/favicon.ico",
-        "/musikmeile/index.html",
-        "/musikmeile/main.17bd7b01f82fe2fc9650.js",
-        "/musikmeile/manifest.webmanifest",
-        "/musikmeile/polyfills.3116b8e9dbb90fea460e.js",
-        "/musikmeile/runtime.0e49e2b53282f40c8925.js",
-        "/musikmeile/scripts.04583e408599e687e8aa.js",
-        "/musikmeile/styles.c0da0997168bff5fcb75.css"
+        "/favicon.ico",
+        "/index.html",
+        "/main.17bd7b01f82fe2fc9650.js",
+        "/manifest.webmanifest",
+        "/polyfills.3116b8e9dbb90fea460e.js",
+        "/runtime.0e49e2b53282f40c8925.js",
+        "/scripts.04583e408599e687e8aa.js",
+        "/styles.c0da0997168bff5fcb75.css"
       ],
       "patterns": []
     },
@@ -30,36 +30,36 @@
         "ignoreVary": true
       },
       "urls": [
-        "/musikmeile/assets/icons/icon-128x128.png",
-        "/musikmeile/assets/icons/icon-144x144.png",
-        "/musikmeile/assets/icons/icon-152x152.png",
-        "/musikmeile/assets/icons/icon-192x192.png",
-        "/musikmeile/assets/icons/icon-384x384.png",
-        "/musikmeile/assets/icons/icon-512x512.png",
-        "/musikmeile/assets/icons/icon-72x72.png",
-        "/musikmeile/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/musikmeile/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/musikmeile/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/musikmeile/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/musikmeile/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/musikmeile/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/musikmeile/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/musikmeile/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/musikmeile/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/musikmeile/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/musikmeile/index.html": "ed07a7ffc266e6cd7aa7352f0984a0ae4d5465ae",
-    "/musikmeile/main.17bd7b01f82fe2fc9650.js": "435af99c7b7724ae874d14c3ba083a13b1c0b7a2",
-    "/musikmeile/manifest.webmanifest": "1f3b0de36c4165ded23d2f1206aa8df6c50c5d6e",
-    "/musikmeile/polyfills.3116b8e9dbb90fea460e.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
-    "/musikmeile/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/musikmeile/scripts.04583e408599e687e8aa.js": "26015421edccac0c50abb75b28168e3c999312fd",
-    "/musikmeile/styles.c0da0997168bff5fcb75.css": "93a0c65050278c851bd8f7f1ad0c282193f9942e"
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "f43394e83a1014eba8ff05c14cf51e6dd9939b41",
+    "/main.17bd7b01f82fe2fc9650.js": "435af99c7b7724ae874d14c3ba083a13b1c0b7a2",
+    "/manifest.webmanifest": "1f3b0de36c4165ded23d2f1206aa8df6c50c5d6e",
+    "/polyfills.3116b8e9dbb90fea460e.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
+    "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/scripts.04583e408599e687e8aa.js": "26015421edccac0c50abb75b28168e3c999312fd",
+    "/styles.c0da0997168bff5fcb75.css": "93a0c65050278c851bd8f7f1ad0c282193f9942e"
   },
   "navigationUrls": [
     {
