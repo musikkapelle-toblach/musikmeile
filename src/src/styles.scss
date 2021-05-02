@@ -43,3 +43,25 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
+
+
+
+img.img-zoomable {
+  transition:transform 0.25s ease;
+  width: 100%;
+}
+
+img.img-zoomable:hover {
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+}
+
+
+.carousel-caption{
+ background: rgba(0, 0, 0, 0.5);
+  padding-bottom: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
