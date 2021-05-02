@@ -15,6 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { HistoricViewComponent } from './historic-view/historic-view.component';
 import { BlockquoteComponent } from './blockquote/blockquote.component';
+import { ImageViewComponent } from './image-view/image-view.component';
 
 @NgModule({
   declarations: [
@@ -27,19 +28,20 @@ import { BlockquoteComponent } from './blockquote/blockquote.component';
     Stage6Component,
     HomeComponent,
     HistoricViewComponent,
-    BlockquoteComponent
+    BlockquoteComponent,
+    ImageViewComponent
   ],
   imports: [
     BrowserModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
-      {path: 'stage1', component: Stage1Component},
-      {path: 'stage2', component: Stage2Component},
-      {path: 'stage3', component: Stage3Component},
-      {path: 'stage4', component: Stage4Component},
-      {path: 'stage5', component: Stage5Component},
-      {path: 'stage6', component: Stage6Component},
+      {path: '1', component: Stage1Component},
+      {path: '2', component: Stage2Component},
+      {path: '3', component: Stage3Component},
+      {path: '4', component: Stage4Component},
+      {path: '5', component: Stage5Component},
+      {path: '6', component: Stage6Component},
     ]),
     NgbModule
   ],

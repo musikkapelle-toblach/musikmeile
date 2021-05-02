@@ -8,11 +8,23 @@
       <p *ngIf="item.body" [innerHTML]="item.body"></p>
       <ng-template [ngIf]="item.from === item.to" [ngIfThen]="oneYear"
                    [ngIfElse]="multipleYears"></ng-template>
+
+      <ng-template [ngIf]="item.image" [ngIfThen]="image">
+
+      </ng-template>
+
       <ng-template #oneYear>
         <span class="cd-date">{{item.from}}</span>
       </ng-template>
       <ng-template #multipleYears>
         <span class="cd-date">{{item.from}} - {{item.to}}</span>
+      </ng-template>
+
+      <ng-template #image>
+        <figure>
+          <img class="img-zoomable" src="{{item.image.url}}" alt="">
+          <figcaption>{{item.image.caption}}</figcaption>
+        </figure>
       </ng-template>
     </div>
   </div>

@@ -17,10 +17,15 @@ export class HistoricViewComponent implements OnInit {
   }
 
 }
+export interface IImage{
+  url: string;
+  caption?: string;
+}
 
 export interface IHistoryEntry {
   from?: number;
   to?: number;
-  title?: string;
+  title: string;
   body?: string;
+  image?: IImage;
 }

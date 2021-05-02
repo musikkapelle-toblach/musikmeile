@@ -20,7 +20,7 @@ export class Stage2Component implements OnInit {
         body: 'Der 14-jährige Bindter-Sohn Sebastian Baur gründet eine 10-köpfige „Musikbande“, deren Aufgabe es ist, die\n' +
           '          Schützenkompanie bei Prozessionen und beim Aufmarsch zum Schießstand zu begleiten. Die Besetzung umfasst\n' +
           '          wahrscheinlich zwei Trompeten, zwei Hörner und zwei Klarinetten. Bald darauf kommen drei Schlaginstrumente und\n' +
-          '          ein Fagott dazu.'
+          '          ein Fagott dazu.',
       },
       {
         title: '1832',
@@ -43,17 +43,26 @@ export class Stage2Component implements OnInit {
         body: 'Das Grand Hotel Toblach wird erbaut, vom Ehepaar Ignaz und Elise Überbacher gepachtet und nach zehn Jahren von\n' +
           '        ihnen gekauft. Es erarbeitet sich einen erstklassigen Ruf und lockt Gäste aus ganz Europa an. Bis 1914 werden in\n' +
           '        Neu-Toblach und dem Höhlensteintal verschiedene Hotels und Pensionen errichtet. Die Musikkapelle spielt häufig\n' +
-          '        “Fremdenkonzerte” an verschiedensten Orten zur Unterhaltung der Gäste. '
+          '        “Fremdenkonzerte” an verschiedensten Orten zur Unterhaltung der Gäste. ',
+        image: {
+          url: '/assets/images/stage2/1877-scaled.png'
+        }
       },
       {
         title: '1885',
         body: 'Das musikalische Repertoire der Kapelle wird um melodiöse Konzertmärsche, Walzer und Polkas sowie Bearbeitungen\n' +
-          '        von Ouvertüren, Opernarien und Operetten erweitert. '
+          '        von Ouvertüren, Opernarien und Operetten erweitert. ',
+        image: {
+          url: '/assets/images/stage2/1885-scaled.png'
+        }
       },
       {
         title: '1886',
         body: 'initiiert Kapellmeister Josef Walch die Anschaffung der neuen “Zillertaler Tracht”. Walch schreibt die Chronik\n' +
-          '        der Musikkapelle nach, führt diese weiter und legt Protokollbücher an. '
+          '        der Musikkapelle nach, führt diese weiter und legt Protokollbücher an. ',
+        image: {
+          url: '/assets/images/stage2/ZillertalerTracht-scaled.png'
+        }
       },
       {
         title: '1907',
@@ -76,12 +85,18 @@ export class Stage2Component implements OnInit {
         title: '1920er Jahre',
         body: 'Die Zwischenkriegszeit ist eine Zeit der Höhen und Tiefen: Durch den wieder aufkommenden Fremdenverkehr steigt\n' +
           '        die Tätigkeit und Nachfrage nach der Musikkapelle zwar an, die Bedingungen für Auftritte sind aber aufgrund von\n' +
-          '        politischen Spannungen zunehmend schwieriger.'
+          '        politischen Spannungen zunehmend schwieriger.',
+        image: {
+          url: '/assets/images/stage2/1926-scaled.png'
+        }
       },
       {
         title: '1939-1945',
         body: 'Der Zweite Weltkrieg und die Option hinterlassen große Lücken in der Musikkapelle. Nur die notwendigsten\n' +
-          '        Auftritte an kirchlichen Festtagen werden absolviert.'
+          '        Auftritte an kirchlichen Festtagen werden absolviert.',
+        image: {
+          url: '/assets/images/stage2/1944-scaled.png'
+        }
       },
       {
         title: '1947',
@@ -100,7 +115,10 @@ export class Stage2Component implements OnInit {
       {
         title: '1971',
         body: 'Die Kapelle feiert das 150-jährige Bestandsjubiläum. Es erscheint eine Festschrift, geschrieben von Obmann\n' +
-          '        Andreas Walder.'
+          '        Andreas Walder.',
+        image: {
+          url: '/assets/images/stage2/1966-scaled.png'
+        }
       },
       {title: '1977', body: 'Ausführliche Statuten sorgen für mehr Klarheit in organisatorischen Belangen.'},
       {
@@ -124,7 +142,10 @@ export class Stage2Component implements OnInit {
           '        JUKA (Jugendkapelle) Toblach wird gegründet. Die Wichtigkeit der Jugendarbeit zeigt auch das erste Konzert in\n' +
           '        Zusammenarbeit mit der Grundschule 1998. '
       },
-      {title: '2001', body: 'Im Rahmen eines Festgottesdiensts wird die Musikfahne enthüllt.'},
+      {title: '2001', body: 'Im Rahmen eines Festgottesdiensts wird die Musikfahne enthüllt.',
+        image: {
+          url: '/assets/images/stage2/2001-scaled.png'
+        }},
       {
         title: '2004',
         body: 'Neue Technologien machen selbst vor traditionsbewussten Musikkapellen nicht halt. Die Musikant*innen werden nun\n' +
@@ -149,7 +170,10 @@ export class Stage2Component implements OnInit {
       {
         title: '2020', body: 'Aufgrund der Corona-Pandemie legen viele Musikkapellen ihre Tätigkeiten still. Die Musikkapelle Toblach\n' +
           '        überrascht ihr Publikum mit einer Konzertreihe, gespielt von verschiedenen Kleingruppen an besonderen Orten im\n' +
-          '        Dorf.'
+          '        Dorf.',
+        image: {
+          url: '/assets/images/stage2/2020-scaled.png'
+        }
       },
     ];
   }

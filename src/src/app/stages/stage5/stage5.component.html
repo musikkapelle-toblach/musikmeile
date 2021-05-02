@@ -76,6 +76,42 @@
     Anleitung, die für Mann und Frau gleichermaßen strikt ist. Kein auffälliger Schmuck, keine Schminke und kein Nagellack
     sind selbstverständlich, sehr streng aber die Anweisung, dass kein loses Haar die Tracht berühren soll.</p>
 
+
+  <ngb-carousel [interval]="5000" [pauseOnHover]="true">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage5/Hut.PNG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Männerhüte</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage5/IMG_0403.JPG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Frauentracht mit bleuem Mieder</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage5/IMG_0471.JPG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Typisches rotes "Leibl</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage5/IMG_0496.JPG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Beinkleider Männertracht</h3>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
   <h2>repräsentativ</h2>
   <p>
     Seit Ende des 18. Jahrhunderts ist das Pustertal und damit auch Toblach Ziel vieler Reisender. Diese wollen sich nicht
@@ -89,12 +125,22 @@
 
   </p>
 
-  <h2>werbewirksam</h2>
-  <p>Große Werbereisen wie z. B. die einer kleinen Gruppe 1955 durch Deutschland oder der ganzen Kapelle 1976 durch
-    Belgien gibt es heutzutage nicht mehr. Bilder der Musikkapelle zieren aber weiterhin Werbematerialien und die Website
-    des Tourismusvereins. Auch die feierliche Umrahmung der Übergabe von Christbäumen, z.B. 1986 im Vatikan an den Papst
-    oder 2015 in Landshut, gehören zu den repräsentativen Aufgaben der Kapelle.
-  </p>
+  <div>
+
+    <h2>werbewirksam</h2>
+    <p>Große Werbereisen wie z. B. die einer kleinen Gruppe 1955 durch Deutschland oder der ganzen Kapelle 1976 durch
+      Belgien gibt es heutzutage nicht mehr. Bilder der Musikkapelle zieren aber weiterhin Werbematerialien und die Website
+      des Tourismusvereins. Auch die feierliche Umrahmung der Übergabe von Christbäumen, z.B. 1986 im Vatikan an den Papst
+      oder 2015 in Landshut, gehören zu den repräsentativen Aufgaben der Kapelle.
+    </p>
+
+
+    <app-image-view src="assets/images/stage5/papst.png" caption="Papst Johannes Paul II. im Gespräch mit den Musikanten"></app-image-view>
+
+  </div>
+
+
+
   <h2>gastfreundlich</h2>
   <p>Die Sommerkonzerte am Pavillon und an verschiedenen Orten im Dorf ziehen Einheimische und Gäste gleichermaßen an. Die
     Tatsache, dass die heute noch vorgesehenen “Ehrungen für treue Gäste” ab 1966 zuerst von der Musikkapelle und erst ab
@@ -102,6 +148,8 @@
     mit dem touristischen Geschehen im Dorf. Die Musikkapelle schreibt um 1965 sogar einen Wanderführer, den sie an die
     Gäste verkauft.
   </p>
+
+  <app-image-view src="assets/images/stage5/Ständchen Hotel Ploner.JPG" caption="Ständchen beim Hotel Ploner (Schluderbach)"></app-image-view>
 
 <p class="todo">
     Station 5 Bildunterschriften

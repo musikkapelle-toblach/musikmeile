@@ -17,17 +17,22 @@
   </p>
 
   <h2>ausgebildet</h2>
-  <p>
-    Instrumentalunterricht, Kapellmeisterlehrgänge, Fortbildungen - musikalische Ausbildung spielt in der Kapelle eine
-    große Rolle, und zwar schon seit 200 Jahren.
-    Aus- und Weiterbildungen für die Vereinsführung wird erst in den letzten Jahrzehnten zum Thema. Der Verband
-    Südtiroler Musikkapellen bietet Lehrgänge, Seminare und Vorträge an, um die Mitglieder der Kapellen bestmöglich zu
-    unterstützen. Auch Toblacher Musikant*innen nehmen diese Angebote gerne an und vier Personen haben das
-    Führungskräfteseminar abgeschlossen. Andere haben sich mit Themen wie dem Führen einer Chronik, der Rolle der
-    Jugendleiter, dem Volontariatsgesetz oder Rhetorik und Sprechschulung auseinandergesetzt.
+
+  <div class="row">
+    <app-image-view src="assets/images/stage3/abzeichen.JPG" class="col-sm-4"></app-image-view>
+    <p class="col-sm-8">
+      Instrumentalunterricht, Kapellmeisterlehrgänge, Fortbildungen - musikalische Ausbildung spielt in der Kapelle eine
+      große Rolle, und zwar schon seit 200 Jahren.
+      Aus- und Weiterbildungen für die Vereinsführung wird erst in den letzten Jahrzehnten zum Thema. Der Verband
+      Südtiroler Musikkapellen bietet Lehrgänge, Seminare und Vorträge an, um die Mitglieder der Kapellen bestmöglich zu
+      unterstützen. Auch Toblacher Musikant*innen nehmen diese Angebote gerne an und vier Personen haben das
+      Führungskräfteseminar abgeschlossen. Andere haben sich mit Themen wie dem Führen einer Chronik, der Rolle der
+      Jugendleiter, dem Volontariatsgesetz oder Rhetorik und Sprechschulung auseinandergesetzt.
 
 
-  </p>
+    </p>
+  </div>
+
   <app-historic-view title="Obmänner" [historicEntries]="obmaenner"></app-historic-view>
 
 
@@ -92,6 +97,7 @@
 
   </p>
 
+<div>
   <h2>symbiotisch</h2>
   <p>
     Dass Musikkapelle und Dorf eine Symbiose bilden, beweist ihr Einsatz bei vielen großen Sportveranstaltungen. Sie
@@ -111,6 +117,67 @@
   </p>
 
 
+  <ngb-carousel [interval]="5000" [pauseOnHover]="true">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage3/religioes/Kriegerfriedhof.JPG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Heldengedenken am Kriegerfriedhof</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage3/religioes/JägermesseDSC_1452.JPG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Jägermesse</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage3/religioes/1982%20-%20Prozession01V.jpg" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Feierliche (lange) Prozession (1982)</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage3/religioes/Bergmesse%20o.ä.%20vlt.%20Plätz.JPG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Bergmesse</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage3/religioes/Erstkommunion%20194041v.jpg" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Begeleitung der Erstkommunikanten (1940)</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage3/religioes/Floriani%20besser.JPG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Floriani</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage3/religioes/Trauermusik%20196610.jpg" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Trauermusik (1966)</h3>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+</div>
+
   <h2>gesellig</h2>
   <p>Musikkapelle ist demnach nicht nur gemeinsam musizieren und dann wieder nach Hause gehen, Musikkapelle ist auch
     gemütliches Beisammensein, Spaß und Sport. Bereits in den 1980er Jahren rodeln die Musikanten mit ihren Frauen um
@@ -119,6 +186,40 @@
     kann in den Maumau- und Wattturnieren oder im Tanzkurs für Anfänger glänzen.
   </p>
 
+  <ngb-carousel [interval]="5000" [pauseOnHover]="true">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage3/Rodelrennen%201980er%20Jahre.JPG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Rodelrennen</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/stage3/Gesellig%202010.JPG" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Vereinsinternes Fussballturnier (2010)</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img src="assets/images/stage3/20190404_230654.jpg" class="w-100">
+    </div>
+    <div class="carousel-caption">
+      <h3>Eisstockturnier mit der Musikkapelle St. Georgen (2019)</h3>
+    </div>
+  </ng-template>
+    <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img src="assets/images/stage3/Wattturnier%202014.JPG" class="w-100">
+    </div>
+    <div class="carousel-caption">
+      <h3>Wattturnier Cäciliafeier (2014)</h3>
+    </div>
+  </ng-template>
+  </ngb-carousel>
 
   <app-blockquote>
     <span text>Für den darauf folgenden Sonntag, 18.7. hatte der Obmann eine gemeinsame Wanderung für alle interessierten auf den
