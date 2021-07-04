@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1622104758880,
+  "timestamp": 1625396257314,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -89,14 +89,14 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/icons/icon-128x128.png": "55980920e3efbb190be3d0061e4f4dcdee9d2330",
+    "/assets/icons/icon-144x144.png": "d0abcc8d43f2796b44c71e115b68f1fc362a974e",
+    "/assets/icons/icon-152x152.png": "37367184f587c41f55bd569e3d99fdd3acfa08aa",
+    "/assets/icons/icon-192x192.png": "e379489a53f8f559d7cb0edfa949abccec88037f",
+    "/assets/icons/icon-384x384.png": "df63203dbfc181000786c0f917f1a14d9d5bf8ec",
+    "/assets/icons/icon-512x512.png": "0fac10712546c9fb8b3cff4928b87b05097d6d2c",
+    "/assets/icons/icon-72x72.png": "53d27799e9edca1774f85dd61ea9d0f5e667a2de",
+    "/assets/icons/icon-96x96.png": "f518c0ea9bb8d6ca0283038d17f823dcc4f3a951",
     "/assets/images/stage1/luis_seiwald.jpg": "63c17efcaa5869b9e8a7978e2642313feab57e25",
     "/assets/images/stage1/mk_toblach_01.jpg": "70f3714dbd5efab272d05c8a5d60c8f7ba925217",
     "/assets/images/stage1/mk_toblach_02.JPG": "c841d59c6d15043ce89d37cda8d889f3a54b9d6e",
