@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1625396257314,
+  "timestamp": 1625681392908,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -38,6 +38,9 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
+        "/assets/images/logos/logo_baur_steinwandter.png",
+        "/assets/images/logos/logo_inox_stahlbau.png",
+        "/assets/images/logos/logo_pellegrini.png",
         "/assets/images/stage1/luis_seiwald.jpg",
         "/assets/images/stage1/mk_toblach_01.jpg",
         "/assets/images/stage1/mk_toblach_02.JPG",
@@ -97,6 +100,9 @@
     "/assets/icons/icon-512x512.png": "0fac10712546c9fb8b3cff4928b87b05097d6d2c",
     "/assets/icons/icon-72x72.png": "53d27799e9edca1774f85dd61ea9d0f5e667a2de",
     "/assets/icons/icon-96x96.png": "f518c0ea9bb8d6ca0283038d17f823dcc4f3a951",
+    "/assets/images/logos/logo_baur_steinwandter.png": "f97df5ef83a941e25ec7adbc27f87bab6e4cd5ef",
+    "/assets/images/logos/logo_inox_stahlbau.png": "f7cebf16349589006957b6310db64a33f457a68a",
+    "/assets/images/logos/logo_pellegrini.png": "f7dd61992a9c2bd41c2b4e60a57f7b0e8e7607b9",
     "/assets/images/stage1/luis_seiwald.jpg": "63c17efcaa5869b9e8a7978e2642313feab57e25",
     "/assets/images/stage1/mk_toblach_01.jpg": "70f3714dbd5efab272d05c8a5d60c8f7ba925217",
     "/assets/images/stage1/mk_toblach_02.JPG": "c841d59c6d15043ce89d37cda8d889f3a54b9d6e",
