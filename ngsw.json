@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1625681392908,
+  "timestamp": 1625683718654,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
         "/index.html",
         "/main.36f83d466c05978fb455.js",
         "/manifest.webmanifest",
@@ -148,8 +147,7 @@
     "/assets/images/stage6/Bläserklasse 2019.JPG": "9ac4b39f2044940a51ed7551a8f6b4d0b3b93eb1",
     "/assets/images/stage6/Ensemblespiel.jpg": "cd9ebffd8f997a07d264bd843081aa9f0391d8ad",
     "/assets/images/stage6/Instrumentvorstellung 2008.JPG": "03ed2817026dcd421c7fa82fb033c464965c7433",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "b7a6a4f27b7495552fc2ace7d77115975ffff5e0",
+    "/index.html": "dd2d1a9c488c2320450b361b70c6dfb8f0efe3f7",
     "/main.36f83d466c05978fb455.js": "0517d2f2bd18e4280f86f4d9ee09f282aea0b209",
     "/manifest.webmanifest": "1f3b0de36c4165ded23d2f1206aa8df6c50c5d6e",
     "/polyfills.3116b8e9dbb90fea460e.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
