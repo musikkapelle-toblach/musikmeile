@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1625686658829,
+  "timestamp": 1625866098362,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.png",
         "/index.html",
-        "/main.36f83d466c05978fb455.js",
+        "/main.24c4cb3d4c5f28e02c6b.js",
         "/manifest.webmanifest",
         "/polyfills.3116b8e9dbb90fea460e.js",
         "/runtime.0e49e2b53282f40c8925.js",
@@ -149,8 +149,8 @@
     "/assets/images/stage6/Ensemblespiel.jpg": "cd9ebffd8f997a07d264bd843081aa9f0391d8ad",
     "/assets/images/stage6/Instrumentvorstellung 2008.JPG": "03ed2817026dcd421c7fa82fb033c464965c7433",
     "/favicon.png": "3a6e929bc8f9a74972d17a7e829f865140da27ce",
-    "/index.html": "dd2d1a9c488c2320450b361b70c6dfb8f0efe3f7",
-    "/main.36f83d466c05978fb455.js": "0517d2f2bd18e4280f86f4d9ee09f282aea0b209",
+    "/index.html": "8fc246911909bfb984441a1255561a57980e9a8b",
+    "/main.24c4cb3d4c5f28e02c6b.js": "ee9debc6c52a33c595e3c376c032e53bc965d33f",
     "/manifest.webmanifest": "1f3b0de36c4165ded23d2f1206aa8df6c50c5d6e",
     "/polyfills.3116b8e9dbb90fea460e.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
     "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
