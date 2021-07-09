@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { HistoricViewComponent } from './historic-view/historic-view.component';
 import { BlockquoteComponent } from './blockquote/blockquote.component';
 import { ImageViewComponent } from './image-view/image-view.component';
+import { GoogleMapsModule } from '@angular/google-maps'
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { ImageViewComponent } from './image-view/image-view.component';
       {path: '5', component: Stage5Component},
       {path: '6', component: Stage6Component},
     ]),
-    NgbModule
+    NgbModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
