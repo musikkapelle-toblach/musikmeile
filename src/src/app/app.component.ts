@@ -10,12 +10,12 @@ export class AppComponent{
   title = 'src';
 
   links = [
-    { title: 'Station 1', fragment: '1' },
-    { title: 'Station 2', fragment: '2' },
-    { title: 'Station 3', fragment: '3' },
-    { title: 'Station 4', fragment: '4' },
-    { title: 'Station 5', fragment: '5' },
-    { title: 'Station 6', fragment: '6' },
+    { title: 'künstlerisch', fragment: '1' },
+    { title: 'geschichtlich', fragment: '2' },
+    { title: 'organisatorisch', fragment: '3' },
+    { title: 'klanglich', fragment: '4' },
+    { title: 'modisch', fragment: '5' },
+    { title: 'ausgebildet', fragment: '6' },
   ];
 
   constructor(public router: Router, private elementRef: ElementRef) {
