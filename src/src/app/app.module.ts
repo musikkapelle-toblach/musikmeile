@@ -16,6 +16,16 @@ import { HomeComponent } from './home/home.component';
 import { HistoricViewComponent } from './historic-view/historic-view.component';
 import { BlockquoteComponent } from './blockquote/blockquote.component';
 import { ImageViewComponent } from './image-view/image-view.component';
+import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
+
 
 @NgModule({
   declarations: [
@@ -33,6 +43,15 @@ import { ImageViewComponent } from './image-view/image-view.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'it',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
@@ -48,4 +67,9 @@ import { ImageViewComponent } from './image-view/image-view.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private translation: TranslateService) {
+    translation.use(translation.getBrowserLang());
+  }
+
+}
