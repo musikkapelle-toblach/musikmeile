@@ -43,7 +43,9 @@ import { GoogleMapsModule } from '@angular/google-maps'
       {path: '4', component: Stage4Component},
       {path: '5', component: Stage5Component},
       {path: '6', component: Stage6Component},
-    ]),
+      ],
+      {scrollPositionRestoration: 'enabled'}
+    ),
     NgbModule,
     GoogleMapsModule
   ],

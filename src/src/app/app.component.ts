@@ -18,6 +18,11 @@ export class AppComponent{
     { title: 'ausgebildet', fragment: '6' },
   ];
 
+  isNavbarCollapsed=true;
+  toggleNavbarCollapsed(): void {
+    this.isNavbarCollapsed = !this.isNavbarCollapsed;
+  }
+
   constructor(public router: Router, private elementRef: ElementRef) {
   }
 }

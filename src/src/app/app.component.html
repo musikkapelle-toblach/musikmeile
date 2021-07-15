@@ -1,14 +1,15 @@
 <nav ngbNav [activeId]="router.url" class="navbar navbar-expand-lg navbar-dark fixed-top shadow" style="">
   <a class="navbar-brand" [routerLink]="''">Musikmeile Toblach</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbarCollapsed()">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" [ngbCollapse]="isNavbarCollapsed" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-
       <li [ngbNavItem]="'/'+ link.fragment" *ngFor="let link of links">
-        <a ngbNavLink [routerLink]="link.fragment">{{ link.title }}</a>
+        <a ngbNavLink [routerLink]="link.fragment" (click)="toggleNavbarCollapsed()">{{ link.title }}</a>
       </li>
     </ul>
   </div>
