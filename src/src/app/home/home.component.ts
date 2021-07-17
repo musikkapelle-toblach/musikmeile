@@ -28,12 +28,12 @@ export class HomeComponent implements OnInit {
   }
 
   markers = [
-    {label: "1", position: {lat: 46.73487, lng: 12.22256}},
-    {label: "2", position: {lat: 46.73494, lng: 12.21832}},
-    {label: "3", position: {lat: 46.73544, lng: 12.2227}},
-    {label: "4", position: {lat: 46.73551, lng: 12.2238}},
-    {label: "5", position: {lat: 46.72844, lng: 12.22377}},
-    {label: "6", position: {lat: 46.72335, lng: 12.2253}}
+    {label: "1", position: {lat: 46.7348535, lng: 12.2223750}, title: "künstlerisch"},
+    {label: "2", position: {lat: 46.7347030, lng: 12.2179040}, title: "geschichtlich"},
+    {label: "3", position: {lat: 46.7356064, lng: 12.2228392}, title: "organisatorisch"},
+    {label: "4", position: {lat: 46.7352774, lng: 12.2243213}, title: "klanglich"},
+    {label: "5", position: {lat: 46.7285359, lng: 12.2237059}, title: "modisch"},
+    {label: "6", position: {lat: 46.7239792, lng: 12.2253620}, title: "ausgebildet"}
   ];
 
 }
