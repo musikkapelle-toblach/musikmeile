@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 
 @Component({
@@ -6,11 +6,7 @@ import {TranslateService} from '@ngx-translate/core';
   templateUrl: './stage5.component.html',
   styleUrls: ['./stage5.component.scss']
 })
-export class Stage5Component implements OnInit {
-
+export class Stage5Component {
   constructor(public translation: TranslateService) { }
-
-  ngOnInit(): void {
-  }
 
 }
