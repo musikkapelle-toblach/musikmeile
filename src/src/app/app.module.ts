@@ -16,7 +16,18 @@ import { HomeComponent } from './home/home.component';
 import { HistoricViewComponent } from './historic-view/historic-view.component';
 import { BlockquoteComponent } from './blockquote/blockquote.component';
 import { ImageViewComponent } from './image-view/image-view.component';
-import { GoogleMapsModule } from '@angular/google-maps'
+import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
+
+import { GoogleMapsModule } from '@angular/google-maps';
+import { FooterComponent } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -30,10 +41,20 @@ import { GoogleMapsModule } from '@angular/google-maps'
     HomeComponent,
     HistoricViewComponent,
     BlockquoteComponent,
-    ImageViewComponent
+    ImageViewComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'it',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
@@ -52,4 +73,9 @@ import { GoogleMapsModule } from '@angular/google-maps'
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private translation: TranslateService) {
+    translation.use(translation.getBrowserLang());
+  }
+
+}

@@ -1,0 +1,27 @@
+.mrg-list-unstyled{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ul.mrg-list-unstyled a {
+  padding-left: 0;
+}
+
+.mobile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+div.mobile a {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  div.mobile a {
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+}

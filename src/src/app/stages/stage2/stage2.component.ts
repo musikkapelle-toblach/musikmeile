@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {IHistoryEntry} from '../../historic-view/historic-view.component';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-stage2',
@@ -8,174 +9,178 @@ import {IHistoryEntry} from '../../historic-view/historic-view.component';
 })
 export class Stage2Component implements OnInit {
 
-  constructor() {
+  constructor(private translation: TranslateService) {
   }
 
   historicEntries: IHistoryEntry[];
 
   ngOnInit(): void {
+
+    this.translation.get([
+        'history_1821',
+        'history_1832',
+        'history_1837',
+        'history_1838',
+        'history_1877',
+        'history_1885',
+        'history_1886',
+        'history_1907',
+        'history_1912',
+        'history_1914-1918',
+        'history_1920',
+        'history_1939-1945',
+        'history_1947',
+        'history_1948',
+        'history_1950',
+        'history_1955',
+        'history_1957',
+        'history_1963',
+        'history_1966',
+        'history_1971',
+        'history_1977',
+        'history_1985',
+        'history_1986',
+        'history_1987',
+        'history_1996',
+        'history_1996_1',
+        'history_1997',
+        'history_2001',
+        'history_2004',
+        'history_2007',
+        'history_2014',
+        'history_2019',
+        'history_2020',
+      ]
+    ).toPromise().then(e => this.loadHistoryEntries(e));
+  }
+
+  private loadHistoryEntries(e: any) {
     this.historicEntries = [
       {
         title: '1821',
-        body: 'Der 14-jährige Bindter-Sohn Sebastian Baur gründet eine 10-köpfige „Musikbande“, deren Aufgabe es ist, die\n' +
-          '          Schützenkompanie bei Prozessionen und beim Aufmarsch zum Schießstand zu begleiten. Die Besetzung umfasst\n' +
-          '          wahrscheinlich zwei Trompeten, zwei Hörner und zwei Klarinetten. Bald darauf kommen drei Schlaginstrumente und\n' +
-          '          ein Fagott dazu.',
+        body: e.history_1821,
       },
       {
         title: '1832',
-        body: 'Das Instrumentarium der kleinen Kapelle wird durch persönlichen Einsatz von Sebastian Baur und weiteren Gönnern\n' +
-          '        um eine Klappentrompete, später um zwei Zugposaunen, ein Paar Cinellen, ein Kontrafagott und Maschinen- bzw.\n' +
-          '        Ventiltrompeten erweitert.'
+        body: e.history_1832
       },
       {
         title: '1837',
-        body: 'Kapellmeister Johann Taschler – Egarter übernimmt die Musikkapelle. Seine Jugendarbeit trägt schnell Früchte\n' +
-          '        und macht die auf rund 20 Mann angewachsene Kapelle im Pustertal bekannt und gefragt.'
+        body: e.history_1837
       },
       {
-        title: '1838', body: 'Bei der Einweihung der Franzensfeste sehen zwei Toblacher Musikanten zum ersten Mal in ihrem Leben eine\n' +
-          '        Regimentskapelle, die spielend im Gleichschritt marschiert. Ab sofort heißt es auch in Toblach: Im Schritt –\n' +
-          '        Marsch!'
+        title: '1838', body: e.history_1838
       },
       {
         title: '1877',
-        body: 'Das Grand Hotel Toblach wird erbaut, vom Ehepaar Ignaz und Elise Überbacher gepachtet und nach zehn Jahren von\n' +
-          '        ihnen gekauft. Es erarbeitet sich einen erstklassigen Ruf und lockt Gäste aus ganz Europa an. Bis 1914 werden in\n' +
-          '        Neu-Toblach und dem Höhlensteintal verschiedene Hotels und Pensionen errichtet. Die Musikkapelle spielt häufig\n' +
-          '        “Fremdenkonzerte” an verschiedensten Orten zur Unterhaltung der Gäste. ',
+        body: e.history_1877,
         image: {
           url: '/assets/images/stage2/1877-scaled.png'
         }
       },
       {
         title: '1885',
-        body: 'Das musikalische Repertoire der Kapelle wird um melodiöse Konzertmärsche, Walzer und Polkas sowie Bearbeitungen\n' +
-          '        von Ouvertüren, Opernarien und Operetten erweitert. ',
+        body: e.history_1885,
         image: {
           url: '/assets/images/stage2/1885-scaled.png'
         }
       },
       {
         title: '1886',
-        body: 'initiiert Kapellmeister Josef Walch die Anschaffung der neuen “Zillertaler Tracht”. Walch schreibt die Chronik\n' +
-          '        der Musikkapelle nach, führt diese weiter und legt Protokollbücher an. ',
+        body: e.history_1886,
         image: {
           url: '/assets/images/stage2/ZillertalerTracht-scaled.png'
         }
       },
       {
         title: '1907',
-        body: 'Kapellmeister Sebastian Baur, Lehrer und Enkel des Gründers, übernimmt die Musikkapelle und setzt sich für die\n' +
-          '        Anschaffung einer authentischen “Toblacher Nationaltracht” ein. Er befasst sich intensiv mit Kirchenmusik,\n' +
-          '        komponiert weltliche und geistliche Werke. In Toblach entsteht ein 18 Mann starkes Streichorchester.'
+        body: e.history_1907
       },
       {
         title: '1912',
-        body: 'werden neue Instrumente mit der internationalen Stimmung eingeführt, sodass auf dem Kirchenchor und in der\n' +
-          '        Kapelle dieselben Instrumente verwendet werden können.'
+        body: e.history_1912
       },
       {
         title: '1914-1918',
-        body: 'Die Musikanten, die in den Krieg einrücken müssen, werden mit klingendem Spiel zum Bahnhof geleitet und\n' +
-          '        verabschiedet. Bis auf zwei kehren alle zurück. Die Tätigkeit der Kapelle wird in dieser Zeit auf ein Minimum\n' +
-          '        beschränkt.'
+        body: e['history_1914-1918']
       },
       {
         title: '1920er Jahre',
-        body: 'Die Zwischenkriegszeit ist eine Zeit der Höhen und Tiefen: Durch den wieder aufkommenden Fremdenverkehr steigt\n' +
-          '        die Tätigkeit und Nachfrage nach der Musikkapelle zwar an, die Bedingungen für Auftritte sind aber aufgrund von\n' +
-          '        politischen Spannungen zunehmend schwieriger.',
+        body: e.history_1920,
         image: {
           url: '/assets/images/stage2/1926-scaled.png'
         }
       },
       {
         title: '1939-1945',
-        body: 'Der Zweite Weltkrieg und die Option hinterlassen große Lücken in der Musikkapelle. Nur die notwendigsten\n' +
-          '        Auftritte an kirchlichen Festtagen werden absolviert.',
+        body: e['history_1939-1945'],
         image: {
           url: '/assets/images/stage2/1944-scaled.png'
         }
       },
       {
         title: '1947',
-        body: 'Erster ordentlicher Auftritt nach dem Krieg. Franz Strobl (Nantl) wird zum Obmann gewählt. Er kümmert sich um\n' +
-          '        die Aufbesserung der Musikkasse, die Reparatur der Instrumente, der Trachten und Monturen. '
+        body: e.history_1947
       },
       {
-        title: '1948', body: 'Die Musikkapelle erhält den 3. Platz für ihre Tracht bei der Bozner Messe. Das Preisgeld beträgt 5.000\n' +
-          '        Lire.'
+        title: '1948', body: e.history_1948
       },
-      {title: '1950', body: 'nimmt die Kapelle am ersten Wertungsspiel in Welsberg teil und erzielt den 1. Preis in der 1. Kategorie.'},
-      {title: '1955', body: 'entsteht die erste Tonbandaufnahme der Kapelle auf dem Schulplatz.'},
-      {title: '1957', body: 'findet das erste Frühjahrskonzert auf dem Postplatz unter Kapellmeister Alois Strobl statt.'},
-      {title: '1963', body: 'wird das renovierte Musikzimmer hinter dem Haus Biedenegg eingeweiht. '},
-      {title: '1966', body: 'entsteht auf dem Schulplatz ein Musikpavillon.'},
+      {title: '1950', body: e.history_1950},
+      {title: '1955', body: e.history_1955},
+      {title: '1957', body: e.history_1957},
+      {title: '1963', body: e.history_1963},
+      {title: '1966', body: e.history_1966},
       {
         title: '1971',
-        body: 'Die Kapelle feiert das 150-jährige Bestandsjubiläum. Es erscheint eine Festschrift, geschrieben von Obmann\n' +
-          '        Andreas Walder.',
+        body: e.history_1971,
         image: {
           url: '/assets/images/stage2/1966-scaled.png'
         }
       },
-      {title: '1977', body: 'Ausführliche Statuten sorgen für mehr Klarheit in organisatorischen Belangen.'},
+      {title: '1977', body: e.history_1977},
       {
         title: '1985',
-        body: 'Frauenpower jetzt auch in der Musikkapelle Toblach: Astrid Hell (Flöte) tritt als erste Frau in die bislang von\n' +
-          '        Männern dominierte Kapelle ein.'
+        body: e.history_1985
       },
-      {title: '1986', body: 'Die Musikkapelle bezieht den Probenraum am jetzigen Standort in der Volksschule.'},
+      {title: '1986', body: e.history_1986},
       {
-        title: '1987', body: 'Im Musiksaal der Grundschule spielt die Musikkapelle unter Kapellmeister Alois Walder ihr erstes großes\n' +
-          '        Saalkonzert.'
+        title: '1987', body: e.history_1987
       },
-      {title: '1996', body: 'Der Chronist erwähnt zum ersten Mal eine Marschierprobe.'},
+      {title: '1996', body: e.history_1996},
       {
-        title: '1996', body: 'Beim feierlichen Jubiläum zum 175-jährigen Bestehen wird die Festschrift verfasst von Christoph Walder\n' +
-          '        vorgestellt. '
+        title: '1996', body: e.history_1996_1
       },
       {
         title: '1997',
-        body: 'Unter Kapellmeister Pepi Fauster wird zum ersten Mal die Position des Jugendleiters im Ausschuss besetzt, die\n' +
-          '        JUKA (Jugendkapelle) Toblach wird gegründet. Die Wichtigkeit der Jugendarbeit zeigt auch das erste Konzert in\n' +
-          '        Zusammenarbeit mit der Grundschule 1998. '
+        body: e.history_1997
       },
-      {title: '2001', body: 'Im Rahmen eines Festgottesdiensts wird die Musikfahne enthüllt.',
+      {
+        title: '2001', body: e.history_2001,
         image: {
           url: '/assets/images/stage2/2001-scaled.png'
-        }},
-      {
-        title: '2004',
-        body: 'Neue Technologien machen selbst vor traditionsbewussten Musikkapellen nicht halt. Die Musikant*innen werden nun\n' +
-          '        via SMS über Ausrückungen, Proben usw. informiert'
+        }
       },
       {
-        title: '2007', body: 'Nach längerer Pause nimmt die Musikkapelle am Bezirkswertungsspiel in Olang teil und erspielt die höchste\n' +
-          '        Punktezahl in der Kunststufe (Kategorie D).'
+        title: '2004',
+        body: e.history_2004
+      },
+      {
+        title: '2007', body: e.history_2007
       },
       {
         title: '2014',
-        body: 'erhält die Musikkapelle Toblach unter Kapellmeister Sigisbert Mutschlechner und Obmann Hermann Rienzner den\n' +
-          '        Blasmusikpreis des Landes Südtirol für besondere Verdienste in verschiedenen Bereichen der Tätigkeit einer\n' +
-          '        Musikkapelle. Besonders hervorstechend ist das Projekt “Bläserklasse - jedem Kind ein Instrument” in\n' +
-          '        Zusammenarbeit mit der Grundschule Toblach, welches im selben Jahr startet. '
+        body: e.history_2014
       },
       {
         title: '2019',
-        body: 'Modernisierung und akustische Sanierung des Probelokals im Grundschulgebäude - zeitgemäße Probenarbeit ist nun\n' +
-          '        möglich.'
+        body: e.history_2019
       },
       {
-        title: '2020', body: 'Aufgrund der Corona-Pandemie legen viele Musikkapellen ihre Tätigkeiten still. Die Musikkapelle Toblach\n' +
-          '        überrascht ihr Publikum mit einer Konzertreihe, gespielt von verschiedenen Kleingruppen an besonderen Orten im\n' +
-          '        Dorf.',
+        title: '2020', body: e.history_2020,
         image: {
           url: '/assets/images/stage2/2020-scaled.png'
         }
       },
     ];
   }
-
 }

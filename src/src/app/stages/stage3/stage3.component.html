@@ -1,29 +1,28 @@
 <div class="container">
-  <h1>Verein & Dorf</h1>
-  
-  <h2>organisiert</h2>
-  <p>
+  <h1 [translate]="'s3_header'">Verein & Dorf</h1>
+
+  <p [translate]="'s3_p1'">
     Ein Verein funktioniert dann, wenn jeder weiß, wann was wo von wem zu erledigen ist. Damit ein Verein 200 Jahre lang
     funktioniert, sind viele helfende Hände und verschiedene Fähigkeiten von Nöten.
   </p>
-  <p>
+  <p [translate]="'s3_p2'">
     An der organisatorischen Spitze der Musikkapelle steht der Obmann. Dieser gehört zum achtköpfigen Ausschuss, welcher
     alle drei Jahre neu gewählt wird. Zu ihnen kommt als neuntes Mitglied der Kapellmeister.
   </p>
-  <p>
+  <p [translate]="'s3_p3'">
     Die Ämter und Aufgaben in der Kapelle wachsen und verändern sich im Laufe der Vereinsgeschichte entsprechend den
     Bedürfnissen der Musikkapelle, bestimmte Aufgaben sind über die Jahre gleich geblieben.
   </p>
-  <p>
+  <p [translate]="'s3_p4'">
     Die Musikkapelle bietet neben dem Musizieren viele Gelegenheiten, die eigenen Talente einzubringen und zum Gelingen
     des Vereins beizutragen. Die Erfahrungen, die Musikant*innen in den Bereichen der Vereinsorganisation machen, kommen
     ihnen auch im Berufs- und Privatleben zugute.
   </p>
 
-  <h2>ausgebildet</h2>
+  <h2 [translate]="'s3_sh2'">ausgebildet</h2>
   <div class="row">
     <app-image-view src="assets/images/stage3/abzeichen.JPG" class="col-sm-4"></app-image-view>
-    <p class="col-sm-8">
+    <p class="col-sm-8" [translate]="'s3_sh2_p1'">
       Instrumentalunterricht, Kapellmeisterlehrgänge, Fortbildungen - musikalische Ausbildung spielt in der Kapelle eine
       große Rolle, und zwar schon seit 200 Jahren.
       Aus- und Weiterbildungen für die Vereinsführung werden erst in den letzten Jahrzehnten zum Thema. Der Verband
@@ -34,8 +33,8 @@
     </p>
   </div>
 
-  <h2>(un)gewöhnlich</h2>
-  <p>
+  <h2 [translate]="'s3_subheader3'">(un)gewöhnlich</h2>
+  <p [translate]="'s3_sh3_p1'">
     Viele Jahrzehnte, fast jahrhundertelang, ist die Musikkapelle Toblach ein reiner Männerverein. Die Marketenderinnen
     dienen als schmückendes Beiwerk, Musikantinnen gibt es noch keine. Erst 1985 spielt zum ersten Mal eine Frau in den
     Reihen der Musikkapelle mit. Dass dies auch für den Chronisten etwas gewöhnungsbedürftig war, zeigt die Formulierung
@@ -46,47 +45,86 @@
 
   <app-historic-view title="Obmänner" [historicEntries]="obmaenner"></app-historic-view>
 
-  <h2>organisatorisch</h2>
-  <p>Obmann / Obfrau → Trägt die Verantwortung für die organisatorischen Belange des Vereins und führt den Verein mit
-    Hilfe des Ausschusses.</p>
-  <p>Vizeobmann / Vizeobfrau → Unterstützt die Obleute bei seinen vielfältigen Aufgaben und vertritt sie wenn nötig.</p>
-  <p>Kassier/in → Ist die Ansprechperson für die finanziellen Bereiche des Vereins,
-    unterstützt die Mitglieder bei Ankäufen oder Beitragsansuchen.</p>
-  <p>Schriftführer/in → Übernimmt die Protokollführung und das Verfassen verschiedener Schriftstücke.</p>
-  <p>Jugendleiter/in → Ist zuständig für die Anwerbung von Jungmusikant*innen und unterstützt diese bei ihrer Ausbildung,
-    organisiert die Jugendkapelle und ist Ansprechperson für junge Musikant*innen.</p>
-  <p>Medienreferent/in → Kümmert sich um den Auftritt der Kapelle in verschiedenen Medien, schreibt Pressetexte,
-    gestaltet Plakate und ist für die Werbung bei Veranstaltungen zuständig.</p>
-  <p>Stabführer/in → Ist hauptverantwortlich für den Bereich Musik in Bewegung, steht der Kapelle bei Marschauftritten
-    vor, organisiert Marschierproben und hat den Gesamteindruck der Musikkapelle bei Auftritten in Tracht oder Uniform
-    im Blick.</p>
-  <p>Kapellmeister/in → Trägt die Verantwortung für die musikalischen Bereiche des Vereins wie Probenarbeit, gespielte
-    Literatur, Planung von Konzerten und Weiterbildung der Musikant*innen.</p>
-  <p>Vizekapellmeister/in → Unterstützt den/die Kapellmeister*in bei den musikalischen Aufgaben und vertritt ihn/sie wenn
-    nötig. Zu den Aufgaben bei der Musikkapelle Toblach gehört auch die Organisation der Bläserklasse.</p>
-  <p>Instrumentwart/in → Kümmert sich um die Verteilung, Ankäufe und Reparaturen von Instrumenten, welche sich im Besitz
-    der Musikkapelle Toblach befinden und an die Mitglieder verliehen werden.</p>
-  <p>Trachtenwart/in → Steht dem Trachtenarchiv vor, versorgt Musikant*innen mit den nötigen Kleidungsstücken und kümmert
-    sich um die Reparatur oder um Ankäufe aller Teile der Tracht bzw. Uniform.</p>
-  <p>Notenwart/in → Organisiert das 1319 Werke umfassende Notenarchiv (Stand 2020) der Musikkapelle Toblach und ist für
-    die Verteilung der Noten zuständig.</p>
-  <p>Zeugwart/in → Kümmert sich um den Besitz der Musikkapelle, z.B. um Notenpulte oder Podeste und führt kleinere
-    Reparaturen durch.</p>
-  <p>Chronist/in → Führt die Musikchronik und kümmert sich um die Digitalisierung früherer Dokumente und Fotografien.</p>
+  <h2 [translate]="'s3_subheader4'">vielfältig</h2>
+  <table>
+    <thead>
+    <tr>
+      <th style="width: 200px" ><b [translate]="'s3_sh4_table_header_t'">Tätigkeit</b></th>
+      <th><b [translate]="'s3_sh4_table_header_d'">Beschreibung</b></th>
+    </tr>
+    </thead>
+    <tr>
+      <td><p [translate]="'s3_sh4_td1_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td1_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td2_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td2_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td3_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td3_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td4_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td4_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td5_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td5_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td6_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td6_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td7_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td7_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td8_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td8_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td9_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td9_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td10_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td10_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td11_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td11_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td12_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td12_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td13_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td13_d'"></p></td>
+    </tr>
+    <tr>
+      <td><p [translate]="'s3_sh4_td14_t'"></p></td>
+      <td><p [translate]="'s3_sh4_td14_d'"></p></td>
+    </tr>
+  </table>
+  <p [translate]="'s3_sh4_p2'">
 
 
-<div>
-  <h2>symbiotisch</h2>
-  <p>
+  <div>
+  <h2 [translate]="'s3_subheader5'">symbiotisch</h2>
+  <p [translate]="'s3_sh5_p1'">
     Dass die Musikkapelle und das Dorf eine Symbiose bilden, beweist ihr Einsatz bei vielen großen Sportveranstaltungen.
     Sie umrahmt vom lokalen Toblacher Nachtlauf (seit 1977) bis zum nationalen Giro d ́Italia (1990), dem Naturbahnrodelwelcup
     (1997), der internationalen Handmäh- Europameisterschaft (2013) oder der Eröffnung der Weltmeisterschaft im
     Eisstockschießen (1974) „große” Momente in Toblach.
   </p>
-  <p>
+  <p [translate]="'s3_sh5_p2'">
     Auch kirchliche Ereignisse wie Erstkommunion, Floriani oder Prozessionen sind ohne die Klänge der Musikkapelle undenkbar.
     Kleingruppen umrahmen Bergmessen, spielen nach der Christmette oder bei anderen religiösen Anlässen.</p>
-  <p>
+  <p [translate]="'s3_sh5_p3'">
     Daneben ist die Kapelle Teil des regen Toblacher Vereinslebens: Man organisiert gemeinsam mit anderen Vereinen das
     jährliche Mittsommerfest, spielt bei Jubiläen, Einweihungen, Festen oder Eröffnungen und misst sich in sportlichen Wettkämpfen.
     So kommt es ab 1975 z.B. zu einigen Freundschaftsspielen (Fußball) gegen die Freiwillige Feuerwehr unter den wachsamen Augen
@@ -99,7 +137,7 @@
         <img src="assets/images/stage3/religioes/Kriegerfriedhof.JPG" class="w-100">
       </div>
       <div class="carousel-caption">
-        <h3>Heldengedenken im Kriegerfriedhof</h3>
+        <h3 [translate]="'s3_sh5_img1'">Heldengedenken im Kriegerfriedhof</h3>
       </div>
     </ng-template>
     <ng-template ngbSlide>
@@ -107,7 +145,7 @@
         <img src="assets/images/stage3/religioes/JägermesseDSC_1452.JPG" class="w-100">
       </div>
       <div class="carousel-caption">
-        <h3>Spiel bei Messfeiern - hier der Jägermesse</h3>
+        <h3 [translate]="'s3_sh5_img2'">Spiel bei Messfeiern - hier der Jägermesse</h3>
       </div>
     </ng-template>
     <ng-template ngbSlide>
@@ -115,7 +153,7 @@
         <img src="assets/images/stage3/religioes/1982%20-%20Prozession01V.jpg" class="w-100">
       </div>
       <div class="carousel-caption">
-        <h3>Feierliche (lange) Prozession (1982)</h3>
+        <h3 [translate]="'s3_sh5_img3'">Feierliche (lange) Prozession (1982)</h3>
       </div>
     </ng-template>
     <ng-template ngbSlide>
@@ -123,7 +161,7 @@
         <img src="assets/images/stage3/religioes/Bergmesse%20o.ä.%20vlt.%20Plätz.JPG" class="w-100">
       </div>
       <div class="carousel-caption">
-        <h3>Umrahmung von Bergmessen</h3>
+        <h3 [translate]="'s3_sh5_img4'">Umrahmung von Bergmessen</h3>
       </div>
     </ng-template>
     <ng-template ngbSlide>
@@ -131,7 +169,7 @@
         <img src="assets/images/stage3/religioes/Erstkommunion%20194041v.jpg" class="w-100">
       </div>
       <div class="carousel-caption">
-        <h3>Begleitung der Erstkommmunikanten (1940)</h3>
+        <h3 [translate]="'s3_sh5_img5'">Begleitung der Erstkommmunikanten (1940)</h3>
       </div>
     </ng-template>
     <ng-template ngbSlide>
@@ -139,7 +177,7 @@
         <img src="assets/images/stage3/religioes/Floriani%20besser.JPG" class="w-100">
       </div>
       <div class="carousel-caption">
-        <h3>Umrahmung der Florianifeier</h3>
+        <h3 [translate]="'s3_sh5_img6'">Umrahmung der Florianifeier</h3>
       </div>
     </ng-template>
     <ng-template ngbSlide>
@@ -147,7 +185,7 @@
         <img src="assets/images/stage3/religioes/Trauermusik%20196610.jpg" class="w-100">
       </div>
       <div class="carousel-caption">
-        <h3>Trauermusik (1966)</h3>
+        <h3 [translate]="'s3_sh5_img7'">Trauermusik (1966)</h3>
       </div>
     </ng-template>
   </ngb-carousel>
@@ -155,8 +193,8 @@
 </div>
 
   <div class="mb-2">
-  <h2>gesellig</h2>
-  <p>Musikkapelle ist nicht nur gemeinsam musizieren und dann wieder nach Hause gehen, Musikkapelle ist auch gemütliches
+  <h2 [translate]="'s3_subheader6'">gesellig</h2>
+  <p [translate]="'s3_sh6_p1'">Musikkapelle ist nicht nur gemeinsam musizieren und dann wieder nach Hause gehen, Musikkapelle ist auch gemütliches
     Beisammensein, Spaß und Sport. Bereits in den 1980er Jahren rodeln die Musikanten mit ihren Frauen um die Wette.
     Fußballspiele, Rad- und Wandertage, Mondscheinrodeln, Eisstockturniere und sogar ein Kuppelwettbewerb (unter
     fachmännischer Anleitung des Feuerwehrkommandanten) finden statt. Wem das zu viel Fitness abverlangt, der kann in den
@@ -170,7 +208,7 @@
         <img src="assets/images/stage3/Rodelrennen%201980er%20Jahre.JPG" class="w-100">
       </div>
       <div class="carousel-caption">
-        <h3>Rodelrennen (1980er Jahre)</h3>
+        <h3 [translate]="'s3_sh6_img1'">Rodelrennen (1980er Jahre)</h3>
       </div>
     </ng-template>
     <!--<ng-template ngbSlide>
@@ -186,7 +224,7 @@
         <img src="assets/images/stage3/20190404_230654.jpg" class="w-100">
       </div>
       <div class="carousel-caption">
-        <h3>Eisstockturnier mit der Musikkapelle St. Georgen (2019)</h3>
+        <h3 [translate]="'s3_sh6_img3'">Eisstockturnier mit der Musikkapelle St. Georgen (2019)</h3>
       </div>
     </ng-template>
     <ng-template ngbSlide>
@@ -194,7 +232,7 @@
         <img src="assets/images/stage3/Wattturnier%202014.JPG" class="w-100">
       </div>
       <div class="carousel-caption w-100">
-        <h3>Wattturnier Cäciliafeier (2014)</h3>
+        <h3 [translate]="'s3_sh6_img4'">Wattturnier Cäciliafeier (2014)</h3>
       </div>
     </ng-template>
   </ngb-carousel>

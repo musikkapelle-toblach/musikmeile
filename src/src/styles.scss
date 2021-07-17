@@ -2,6 +2,15 @@
 @import '~bootstrap/scss/bootstrap';
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+  font-family: 'acherus-grotesque-light';
+  src: url(assets/fonts/acherus-grotesque-light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Bambusa Pro Regular';
+  src: url('assets/fonts/Bambusa Pro Regular.ttf') format("truetype");
+}
 
 .navbar {
   background-color: darken($primary, 20);
@@ -11,24 +20,27 @@
 h1 {
   color: $primary;
   text-align: center;
-  font-family: Consolas, serif;
+  font-family: 'Bambusa Pro Regular';
   padding-bottom: 15px
 }
 
 h2 {
   color: $secondary;
-  font-family: 'Consolas', serif;
+  font-family: 'Bambusa Pro Regular';
   text-decoration: underline;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
 h3 {
+  font-family: 'acherus-grotesque-light';
   color: $secondary;
   font-size: 20px;
 }
 
 p {
+  font-family: 'acherus-grotesque-light';
+  font-size: 1.2em;
   color: rgba(255, 255, 255, 0.7);
   text-align: justify;
 }
@@ -40,7 +52,7 @@ p.todo {
 html, body {
   background-color: $dark;
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'acherus-grotesque-light';
   box-sizing: border-box;
 }
 
