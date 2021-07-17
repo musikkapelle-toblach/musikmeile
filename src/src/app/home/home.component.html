@@ -1,8 +1,12 @@
 <div class="container">
-  <h1 [translate]="'home_header'">
-    <span style="font-family:acherus-grotesque-light; color:black;">Auf der Musikmeile unter</span>
-    <span style="font-family:Bambusa Pro Regular; font-size: 5rem;">weg</span>
-    <span style="font-family:acherus-grotesque-light; color:black;">s</span>
+  <h1 [translate]="'home_header_de'">
+    <span [translate]="'home_header_de1'" style="font-family:acherus-grotesque-light; color:black;">Auf der Musikmeile unter</span>
+    <span [translate]="'home_header_de2'" style="font-family:Bambusa Pro Regular; font-size: 5rem;">weg</span>
+    <span [translate]="'home_header_de3'" style="font-family:acherus-grotesque-light; color:black;">s</span>
+  </h1>
+  <h1 [translate]="'home_header_it'">
+    <span [translate]="'home_header_it1'" style="font-family:Bambusa Pro Regular; font-size: 3rem;">Strada facendo</span><br>
+    <span [translate]="'home_header_it2'" style="font-family:acherus-grotesque-light; color:black;">sul Miglio della musica</span>
   </h1>
   <p [translate]="'home_p1'">200 Jahre Musikkapelle, 200 Jahre gemeinsam unterwegs - als Kapelle, für die Dorfgemeinschaft, im Dorf und außerhalb.
     Diesem besonderen Jubiläum ist die Toblacher Musikmeile gewidmet.
@@ -22,9 +26,9 @@
   <p [translate]="'home_p5'">Machen Sie sich auf den Weg durch 200 Jahre Musik- und Dorfgeschichte.
     Vielleicht treffen Sie ja auf den einen oder die andere Musikant*in - oder besser noch - die gesamte Musikkapelle.
     Viel Glück und einen schönen Spaziergang!</p>
-  <p [translate]="'home_p6'">Ihre Musikkapelle Toblach - 2021</p>
+  <p [translate]="'home_p6'">Ihre Musikkapelle Toblach</p>
   <div class="google-maps-home">
-    <h2>positionen</h2>
+    <h2 [translate]="'home_subheader2'">positionen</h2>
     <google-map [width]="null" [height]="null" [options]="mapOptions">
       <map-marker *ngFor="let marker of markers" [position]="marker.position" [label]="marker.label"></map-marker>
     </google-map>
