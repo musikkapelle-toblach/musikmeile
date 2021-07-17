@@ -1,4 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,9 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class HomeComponent {
+
+  constructor(public translate: TranslateService) { }
+
   mapOptions: google.maps.MapOptions = {
     center: { lat: 46.729534, lng: 12.223341 },
     zoom : 15,

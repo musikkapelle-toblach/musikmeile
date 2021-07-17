@@ -27,7 +27,7 @@ export class Stage4Component {
     {title: 'Alois Strobl',    from: 1957, to: 1981  },
     {title: 'Alois Walder',    from: 1981, to: 1992  },
     {title: 'Alfred Gasser',    from: 1992, to: 1996  },
-    {title: 'Pepi Fauster',    from: 1997, to: 2011, body: 'Ehrenkapellmeister ab 2012'  },
+    {title: 'Pepi Fauster',    from: 1997, to: 2011  },
     {title: 'Sigisbert Mutschlechner',    from: 2012, to: undefined  },
   ];
 
