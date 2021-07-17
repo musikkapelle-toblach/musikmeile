@@ -33,10 +33,10 @@
   <h2 [translate]="'s1_subheader3'">entstehend</h2>
   <div class="row">
     <div class="col-sm-6">
-      <app-image-view src="/assets/images/stage1/entstehend_1.jpg" caption="Maximilian und Luis beim Zeichnen der Stelen am Computer"></app-image-view>
+      <app-image-view src="/assets/images/stage1/entstehend_1.jpg" caption="{{translation.get('s1_img1_caption') | async}}"></app-image-view>
     </div>
     <div class="col-sm-6">
-      <app-image-view src="/assets/images/stage1/entstehend_2.jpg" caption="Gravur des Musiklogos auf der Stele"></app-image-view>
+      <app-image-view src="/assets/images/stage1/entstehend_2.jpg" caption="{{translation.get('s1_img2_caption') | async}}"></app-image-view>
     </div>
   </div>
 

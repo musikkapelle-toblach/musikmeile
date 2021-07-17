@@ -1,14 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import {IHistoryEntry} from '../../historic-view/historic-view.component';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-stage4',
   templateUrl: './stage4.component.html',
   styleUrls: ['./stage4.component.scss']
 })
-export class Stage4Component implements OnInit {
+export class Stage4Component {
 
-  constructor() { }
+  constructor(public translation: TranslateService) { }
 
   conductors: IHistoryEntry[] = [
     {title: 'Sebastian Baur',    from: 1830, to: 1837  },
@@ -29,8 +30,5 @@ export class Stage4Component implements OnInit {
     {title: 'Pepi Fauster',    from: 1997, to: 2011, body: 'Ehrenkapellmeister ab 2012'  },
     {title: 'Sigisbert Mutschlechner',    from: 2012, to: undefined  },
   ];
-
-  ngOnInit(): void {
-  }
 
 }

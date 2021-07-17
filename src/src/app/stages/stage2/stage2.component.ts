@@ -108,7 +108,7 @@ export class Stage2Component implements OnInit {
         title: '1920er Jahre',
         body: e.history_1920,
         image: {
-          url: '/assets/images/stage2/1926-scaled.png'
+          url: '/assets/images/stage2/1926-scaled.jpg'
         }
       },
       {

@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,25 +6,19 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./home.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class HomeComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class HomeComponent {
   mapOptions: google.maps.MapOptions = {
     center: { lat: 46.729534, lng: 12.223341 },
     zoom : 15,
     clickableIcons: false,
-    styles: [ 
-      { 
-        "featureType": "poi", 
-        "stylers": [ 
-          { "visibility": "off" } 
-        ] 
-      } 
-    ] 
+    styles: [
+      {
+        "featureType": "poi",
+        "stylers": [
+          { "visibility": "off" }
+        ]
+      }
+    ]
   }
 
   markers = [

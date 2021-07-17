@@ -2,13 +2,16 @@
 @import '~bootstrap/scss/bootstrap';
 /* You can add global styles to this file, and also import other style files */
 
+$fontBambusaProRegular: 'Bambusa Pro Regular';
+$fontAcherusGrotesqueLight: 'acherus-grotesque-light';
+
 @font-face {
-  font-family: 'acherus-grotesque-light';
+  font-family: $fontAcherusGrotesqueLight;
   src: url(assets/fonts/acherus-grotesque-light.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'Bambusa Pro Regular';
+  font-family: $fontBambusaProRegular;
   src: url('assets/fonts/Bambusa Pro Regular.ttf') format("truetype");
 }
 
@@ -20,32 +23,32 @@
 h1 {
   color: $primary;
   text-align: center;
-  font-family: 'Bambusa Pro Regular';
+  font-family: $fontBambusaProRegular;
   padding-bottom: 15px;
 }
 
 h2 {
   color: $primary;
-  font-family: 'Bambusa Pro Regular';
+  font-family: $fontBambusaProRegular;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
 h3 {
-  font-family: 'acherus-grotesque-light';
+  font-family: $fontAcherusGrotesqueLight;
   color: rgba(0, 0, 0);
   font-weight: bold;
   font-size: 20px;
 }
 
 h4 {
-  font-family: 'acherus-grotesque-light';
+  font-family: $fontAcherusGrotesqueLight;
   color: $secondary;
   font-size: 20px;
 }
 
 p {
-  font-family: 'acherus-grotesque-light';
+  font-family: $fontAcherusGrotesqueLight;
   font-size: 1.2em;
   color: rgba(0, 0, 0, 0.7);
   text-align: justify;
@@ -58,7 +61,7 @@ p.todo {
 html, body {
   background-color: $white;
   height: 100%;
-  font-family: 'acherus-grotesque-light';
+  font-family: $fontAcherusGrotesqueLight;
   box-sizing: border-box;
 }
 
@@ -83,3 +86,11 @@ img.img-zoomable:hover {
   bottom: 0;
 }
 
+@media only screen and (max-width: 992px) {
+  h1{
+    font-size:8vw;
+  }
+  h2{
+    font-size:7vw;
+  }
+}
