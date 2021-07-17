@@ -1,20 +1,31 @@
 <div class="container">
-  <h1 [translate]="'Vorweg'"></h1>
-  <h2 [translate]="'Unterwegs'"></h2>
-  <p [translate]="'home_p1'"></p>
-  <p [translate]="'home_p2'"></p>
-  <p [translate]="'home_p3'"></p>
-  <p [translate]="'home_p4'"></p>
-  <p [translate]="'home_p5'"></p>
-  <p [translate]="'home_p6'"></p>
-
-  <!--
-<p class="todo">
-
-
-  FOTO BESCHRIFTETES LOGO - Ev. WEG? / ZEICHNUNG LUIS Dorfplan???
-  Hier noch nicht klar - das wäre das Vorwort.</p>
+  <h1>Auf der Musikmeile unterwegs</h1>
+  <h2>unterwegs</h2>
+  <p>200 Jahre Musikkapelle, 200 Jahre gemeinsam unterwegs - als Kapelle, für die Dorfgemeinschaft, im Dorf und außerhalb. 
+    Diesem besonderen Jubiläum ist die Toblacher Musikmeile gewidmet. 
+    So wie die Kapelle bei verschiedenen Anlässen durch das Dorf marschiert, an verschiedenen Plätzen halt macht und spielt, so sind auch
+    Sie eingeladen, eben dies zu tun. Sie müssen natürlich nicht marschieren, sondern können
+    auf den musikalischen Spuren wandeln und der wechselvollen (Musik-)Geschichte durch das Dorf folgen.</p>
+  <p>Im Mittelpunkt steht die Musikkapelle Toblach, ihre geschichtliche, 
+    aber vor allem ihre musikalische Entwicklung als Verein und Blasorchester. 
+    Und daneben - oder besser gesagt damit verwoben - das Dorf, mit dem die Kapelle untrennbar verbunden ist.
+    Ausgehend vom Pavillon und dem Probelokal begegnet man dem Haus des Gründers und weiteren Orten, 
+    die für die jährliche Tätigkeit der Musikkapelle stehen, wie der Kirche und dem Rathaus. 
+    Bevor die Meile am Kulturzentrum endet, wird auch die Beziehung zwischen Tourismus und Musik(kapelle) angesprochen.</p>
+  <p>Jede Stele (Tafel) stellt einen Teil des Logos der Musikkapelle dar. 
+    Hinter den QR-Codes gibt es Zusatzinformationen oder Bild- und Tonmaterial, welches Einblicke ins Vereinsleben ermöglicht.</p>
+  <p>Hauptquellen für vorliegende Broschüre sind die Chronikbücher, 
+    Aufzeichnungen aus dem Archiv der Musikkapelle und die beiden bestehenden Festschriften.</p>
+  <p>Machen Sie sich auf den Weg durch 200 Jahre Musik- und Dorfgeschichte. 
+    Vielleicht treffen Sie ja auf den einen oder die andere Musikant*in - oder besser noch - die gesamte Musikkapelle. 
+    Viel Glück und einen schönen Spaziergang!</p>
+  <p>Ihre Musikkapelle Toblach - 2021</p>
+  <div class="google-maps-home">
+    <h2>positionen</h2>
+    <google-map [width]="null" [height]="null" [options]="mapOptions">
+      <map-marker *ngFor="let marker of markers" [position]="marker.position" [label]="marker.label"></map-marker>
+    </google-map>
+  </div>
 
 
 </div>
--->

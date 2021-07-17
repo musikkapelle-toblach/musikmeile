@@ -26,6 +26,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
+import { GoogleMapsModule } from '@angular/google-maps'
 
 @NgModule({
   declarations: [
@@ -61,8 +62,11 @@ export function HttpLoaderFactory(http: HttpClient) {
       {path: '4', component: Stage4Component},
       {path: '5', component: Stage5Component},
       {path: '6', component: Stage6Component},
-    ]),
-    NgbModule
+      ],
+      {scrollPositionRestoration: 'enabled'}
+    ),
+    NgbModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
