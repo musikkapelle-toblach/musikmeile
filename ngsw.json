@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1626382039445,
+  "timestamp": 1626521433401,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.png",
         "/index.html",
-        "/main.d641ec25a0664236bc9c.js",
+        "/main.7f4c37f6c18239de80f4.js",
         "/manifest.webmanifest",
         "/polyfills.3116b8e9dbb90fea460e.js",
         "/runtime.0e49e2b53282f40c8925.js",
         "/scripts.04583e408599e687e8aa.js",
-        "/styles.5a6896c55ccb293e0c50.css"
+        "/styles.41d5c38e5a1ee596b294.css"
       ],
       "patterns": []
     },
@@ -30,6 +30,12 @@
         "ignoreVary": true
       },
       "urls": [
+        "/Bambusa Pro Regular.f56033e625e31e01dbc5.ttf",
+        "/acherus-grotesque-light.665de249ce4322a91f9c.ttf",
+        "/assets/fonts/Bambusa Pro Regular.ttf",
+        "/assets/fonts/acherus-grotesque-light.ttf",
+        "/assets/i18n/de.json",
+        "/assets/i18n/it.json",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -95,6 +101,12 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/Bambusa Pro Regular.f56033e625e31e01dbc5.ttf": "8092d591abd6fab24f275849d3c3acf2f9b8515f",
+    "/acherus-grotesque-light.665de249ce4322a91f9c.ttf": "2ce43e66bfa961eeabb7e37f179037335c304431",
+    "/assets/fonts/Bambusa Pro Regular.ttf": "8092d591abd6fab24f275849d3c3acf2f9b8515f",
+    "/assets/fonts/acherus-grotesque-light.ttf": "2ce43e66bfa961eeabb7e37f179037335c304431",
+    "/assets/i18n/de.json": "0d420c3c68d716b0d9d4d04d79d16b0b1a4bb4ec",
+    "/assets/i18n/it.json": "b4adf1c33c1303b73a0b0529dd27fb1d97f792f8",
     "/assets/icons/icon-128x128.png": "55980920e3efbb190be3d0061e4f4dcdee9d2330",
     "/assets/icons/icon-144x144.png": "d0abcc8d43f2796b44c71e115b68f1fc362a974e",
     "/assets/icons/icon-152x152.png": "37367184f587c41f55bd569e3d99fdd3acfa08aa",
@@ -155,13 +167,13 @@
     "/assets/images/stage6/Ensemblespiel.jpg": "cd9ebffd8f997a07d264bd843081aa9f0391d8ad",
     "/assets/images/stage6/Instrumentvorstellung 2008.JPG": "03ed2817026dcd421c7fa82fb033c464965c7433",
     "/favicon.png": "3a6e929bc8f9a74972d17a7e829f865140da27ce",
-    "/index.html": "87b6f3ae13c4f6820afb73bb4415987c2e361111",
-    "/main.d641ec25a0664236bc9c.js": "bfd1803ec1fa63a1150d8a695069bfaffa110c08",
+    "/index.html": "f84b13ea4944c78f61790e893ef60525394d9737",
+    "/main.7f4c37f6c18239de80f4.js": "ad361756e0c6553a3196875594ff77ffa2954c27",
     "/manifest.webmanifest": "8f15f192e306db1403d5f74c12aa0bbfd8f83cc0",
     "/polyfills.3116b8e9dbb90fea460e.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
     "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/scripts.04583e408599e687e8aa.js": "26015421edccac0c50abb75b28168e3c999312fd",
-    "/styles.5a6896c55ccb293e0c50.css": "71959d9ae5ec57fc72b615955fa845523b3e34b7"
+    "/styles.41d5c38e5a1ee596b294.css": "5b3a3f66391c84392871867cb1c19121cc2cc913"
   },
   "navigationUrls": [
     {
