@@ -24,7 +24,7 @@
     Viel Glück und einen schönen Spaziergang!</p>
   <p [translate]="'home_p6'">Ihre Musikkapelle Toblach - 2021</p>
   <div class="google-maps-home">
-    <h2>positionen</h2>
+    <h2 [translate]="'home_positionen'">positionen</h2>
     <google-map [width]="null" [height]="null" [options]="mapOptions">
       <map-marker *ngFor="let marker of markers" [position]="marker.position" [label]="marker.label"></map-marker>
     </google-map>

@@ -27,7 +27,8 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 
 import { GoogleMapsModule } from '@angular/google-maps';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { ImprintComponent } from './imprint/imprint.component'
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { FooterComponent } from './footer/footer.component'
     HistoricViewComponent,
     BlockquoteComponent,
     ImageViewComponent,
-    FooterComponent
+    FooterComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,
@@ -64,6 +66,7 @@ import { FooterComponent } from './footer/footer.component'
       {path: '4', component: Stage4Component},
       {path: '5', component: Stage5Component},
       {path: '6', component: Stage6Component},
+      {path: 'imprint', component: ImprintComponent},
       ],
       {scrollPositionRestoration: 'enabled'}
     ),
