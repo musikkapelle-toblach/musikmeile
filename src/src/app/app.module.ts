@@ -26,7 +26,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
-import { GoogleMapsModule } from '@angular/google-maps'
+import { GoogleMapsModule } from '@angular/google-maps';
+import { FooterComponent } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { GoogleMapsModule } from '@angular/google-maps'
     HomeComponent,
     HistoricViewComponent,
     BlockquoteComponent,
-    ImageViewComponent
+    ImageViewComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
