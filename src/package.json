@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pwa": "ng build --prod && http-server -p 8080 -c-1 dist/src",
+    "pwa": "ng build --configuration production && http-server -p 8080 -c-1 dist/src",
     "build:deploy": "ng deploy",
     "i18n:extract": "ngx-translate-extract --input ./src --output ./src/assets/i18n/de.json --clean --format json"
   },
