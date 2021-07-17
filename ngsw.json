@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1626553156241,
+  "timestamp": 1626559502634,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.png",
         "/index.html",
-        "/main.70527bbc332f903bac4c.js",
+        "/main.620a2369ec410350c2ea.js",
         "/manifest.webmanifest",
         "/polyfills.8bfd5a612d5fd46a92c2.js",
         "/runtime.249248cf90f3e25088df.js",
@@ -105,8 +105,8 @@
     "/acherus-grotesque-light.665de249ce4322a91f9c.ttf": "2ce43e66bfa961eeabb7e37f179037335c304431",
     "/assets/fonts/Bambusa Pro Regular.ttf": "8092d591abd6fab24f275849d3c3acf2f9b8515f",
     "/assets/fonts/acherus-grotesque-light.ttf": "2ce43e66bfa961eeabb7e37f179037335c304431",
-    "/assets/i18n/de.json": "83b89b450d89e8315285acb57ffcdce63d7344d9",
-    "/assets/i18n/it.json": "6a00ec4bfa9e1d9a4e86461bd78b941dcf692325",
+    "/assets/i18n/de.json": "c639fc058247fa98e37d3729349a707adfaaafc4",
+    "/assets/i18n/it.json": "3b4bff32839dd589c4003f2ae0e10b59e0c5a304",
     "/assets/icons/icon-128x128.png": "55980920e3efbb190be3d0061e4f4dcdee9d2330",
     "/assets/icons/icon-144x144.png": "d0abcc8d43f2796b44c71e115b68f1fc362a974e",
     "/assets/icons/icon-152x152.png": "37367184f587c41f55bd569e3d99fdd3acfa08aa",
@@ -167,8 +167,8 @@
     "/assets/images/stage6/Ensemblespiel.jpg": "cd9ebffd8f997a07d264bd843081aa9f0391d8ad",
     "/assets/images/stage6/Instrumentvorstellung 2008.JPG": "03ed2817026dcd421c7fa82fb033c464965c7433",
     "/favicon.png": "3a6e929bc8f9a74972d17a7e829f865140da27ce",
-    "/index.html": "abaa825b0450c1b1432b5de3b31e86d49a55b571",
-    "/main.70527bbc332f903bac4c.js": "8ef716141ab1217624780a92fb6a689e0916a78e",
+    "/index.html": "68c7626b15abd15d2d054ac716b5d41d4bcf044e",
+    "/main.620a2369ec410350c2ea.js": "f35065556953eebc26795dfb087d6c3e63932f7f",
     "/manifest.webmanifest": "8f15f192e306db1403d5f74c12aa0bbfd8f83cc0",
     "/polyfills.8bfd5a612d5fd46a92c2.js": "62b12ed52d834ca32f2f84f9228dfdc5b7592d91",
     "/runtime.249248cf90f3e25088df.js": "7f46cd5a1f5d112824d732a41178c083250860f4",
