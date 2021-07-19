@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1626620310373,
+  "timestamp": 1626676005049,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -105,7 +105,7 @@
     "/acherus-grotesque-light.665de249ce4322a91f9c.ttf": "2ce43e66bfa961eeabb7e37f179037335c304431",
     "/assets/fonts/Bambusa Pro Regular.ttf": "8092d591abd6fab24f275849d3c3acf2f9b8515f",
     "/assets/fonts/acherus-grotesque-light.ttf": "2ce43e66bfa961eeabb7e37f179037335c304431",
-    "/assets/i18n/de.json": "c48585e307e66d68b91de8106557964507a41d03",
+    "/assets/i18n/de.json": "a84d7b4e73ef8cfa0eb47850e49c94cfbfd6ed45",
     "/assets/i18n/it.json": "1b7679b0cdb9deb3ea264af452c7fe6d195c77dd",
     "/assets/icons/icon-128x128.png": "55980920e3efbb190be3d0061e4f4dcdee9d2330",
     "/assets/icons/icon-144x144.png": "d0abcc8d43f2796b44c71e115b68f1fc362a974e",
