@@ -22,6 +22,7 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
+    this.translate.onLangChange.asObservable().subscribe(e => this.createLinks(e.translations));
     this.translate.get([
       's1_header',
       's2_header',
@@ -42,5 +43,9 @@ export class AppComponent implements OnInit{
       {title: e.s5_header, fragment: '5'},
       {title: e.s6_header, fragment: '6'},
     ];
+  }
+
+  changeLanguage(culture: string) {
+    this.translate.use(culture);
   }
 }

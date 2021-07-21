@@ -14,7 +14,7 @@ import { Stage6Component } from './stages/stage6/stage6.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { HistoricViewComponent } from './historic-view/historic-view.component';
-import { BlockquoteComponent } from './blockquote/blockquote.component';
+import  { BlockquoteComponent } from './blockquote/blockquote.component';
 import { ImageViewComponent } from './image-view/image-view.component';
 import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
@@ -78,7 +78,13 @@ import { ImprintComponent } from './imprint/imprint.component'
 })
 export class AppModule {
   constructor(private translation: TranslateService) {
-    translation.use(translation.getBrowserLang());
+    translation.addLangs(['de', 'it']);
+
+    const browserLang = translation.getBrowserLang();
+    if(translation.getLangs().find(e => e === browserLang))
+    {
+      translation.use(browserLang);
+    }
   }
 
 }

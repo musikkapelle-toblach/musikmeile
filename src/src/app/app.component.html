@@ -11,6 +11,15 @@
       <li [ngbNavItem]="'/'+ link.fragment" *ngFor="let link of links">
         <a ngbNavLink [routerLink]="link.fragment" (click)="toggleNavbarCollapsed()">{{ link.title }}</a>
       </li>
+
+    </ul>
+
+    <ul ngbDropdown class="navbar-nav mr-0">
+      <a href (click)="false" class="nav-link" ngbDropdownToggle [translate]="'navbar.language'"></a>
+      <li ngbDropdownMenu>
+        <button ngbDropdownItem [translate]="'navbar.languages.de'" (click)="changeLanguage('de')"></button>
+        <button ngbDropdownItem [translate]="'navbar.languages.it'" (click)="changeLanguage('it')"></button>
+      </li>
     </ul>
   </div>
 </nav>
