@@ -1,6 +1,6 @@
 <div class="container">
   <h1 [translate]="'s4_header'">Klang & Konzerte</h1>
-  
+
   <p [translate]="'s4_sh1_p1'">
     Die Entwicklung der Musikkapelle Toblach von der 10-köpfigen Musikbande des Gründers Sebastian Baur bis zur
     heutigen Musikkapelle lässt sich kaum in wenigen Worten beschreiben. Von den ersten Erweiterungen des
@@ -97,7 +97,7 @@
     Mit der Sanierung des Grand Hotels Toblach, vor allem aber mit dem Bau des Gustav-Mahler-Saals, hat die Musikkapelle seit 2000
     einen besonderen Ort, an dem sie ihr jährliches Festkonzert oder andere Highlights präsentiert.
   </p>
-  <app-image-view src="assets/images/stage4/raeumlich-1_probelokal.jpg" caption="{{translation.get('s4_img1_caption') | async}}"></app-image-view>
+  <app-image-view src="assets/images/stage4/raeumlich-1_probelokal.jpg" caption="{{'s4_img1_caption' | translate}}"></app-image-view>
 
   <h2 [translate]="'s4_sh5'">innovativ</h2>
   <p [translate]="'s4_sh5_p1'">
@@ -123,7 +123,7 @@
     über den Blasmusikpreis des Landes Südtirol freuen, der für besondere Leistungen vergeben wird.
   </p>
 
-  <app-historic-view title="{{translation.get('s4_sh6') | async}}" [historicEntries]="conductors"></app-historic-view>
+  <app-historic-view title="{{'s4_sh6' | translate}}" [historicEntries]="conductors"></app-historic-view>
 
 
 

@@ -1,0 +1,23 @@
+<nav ngbNav [activeId]="router.url" class="navbar navbar-expand-lg navbar-dark fixed-top shadow" style="">
+  <a class="navbar-brand" [routerLink]="''" [translate]="'navbar.header_title'">Musikmeile Toblach</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbarCollapsed()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" [ngbCollapse]="isNavbarCollapsed" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li [ngbNavItem]="'/'+ link.fragment" *ngFor="let link of links">
+        <a ngbNavLink [routerLink]="link.fragment" (click)="toggleNavbarCollapsed()">{{ link.title | translate }}</a>
+      </li>
+    </ul>
+
+    <ul ngbDropdown class="navbar-nav mr-0">
+      <a href (click)="false" class="nav-link" ngbDropdownToggle [translate]="'navbar.language'"></a>
+      <li ngbDropdownMenu>
+        <button ngbDropdownItem *ngFor="let lang of languages" (click)="changeLanguage(lang)">{{'navbar.languages.' + lang | translate}}</button>
+      </li>
+    </ul>
+  </div>
+</nav>

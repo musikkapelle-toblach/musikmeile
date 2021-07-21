@@ -1,30 +1,7 @@
-<nav ngbNav [activeId]="router.url" class="navbar navbar-expand-lg navbar-dark fixed-top shadow" style="">
-  <a class="navbar-brand" [routerLink]="''" [translate]="'header_title'">Musikmeile Toblach</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse"
-      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbarCollapsed()">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<app-navbar></app-navbar>
 
-  <div class="collapse navbar-collapse" [ngbCollapse]="isNavbarCollapsed" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li [ngbNavItem]="'/'+ link.fragment" *ngFor="let link of links">
-        <a ngbNavLink [routerLink]="link.fragment" (click)="toggleNavbarCollapsed()">{{ link.title }}</a>
-      </li>
-
-    </ul>
-
-    <ul ngbDropdown class="navbar-nav mr-0">
-      <a href (click)="false" class="nav-link" ngbDropdownToggle [translate]="'navbar.language'"></a>
-      <li ngbDropdownMenu>
-        <button ngbDropdownItem [translate]="'navbar.languages.de'" (click)="changeLanguage('de')"></button>
-        <button ngbDropdownItem [translate]="'navbar.languages.it'" (click)="changeLanguage('it')"></button>
-      </li>
-    </ul>
-  </div>
-</nav>
 <div style="padding-top: 100px">
-  <router-outlet ></router-outlet>
+  <router-outlet></router-outlet>
 </div>
 
 <footer class="pt-5 pb-2 mt-1 bg-light">

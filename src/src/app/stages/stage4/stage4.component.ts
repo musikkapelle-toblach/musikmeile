@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import {IHistoryEntry} from '../../historic-view/historic-view.component';
-import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-stage4',
@@ -8,8 +7,6 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrls: ['./stage4.component.scss']
 })
 export class Stage4Component {
-
-  constructor(public translation: TranslateService) { }
 
   conductors: IHistoryEntry[] = [
     {title: 'Sebastian Baur',    from: 1830, to: 1837  },

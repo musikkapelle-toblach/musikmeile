@@ -28,7 +28,8 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 import { GoogleMapsModule } from '@angular/google-maps';
 import { FooterComponent } from './footer/footer.component';
-import { ImprintComponent } from './imprint/imprint.component'
+import { ImprintComponent } from './imprint/imprint.component';
+import { NavbarComponent } from './navbar/navbar.component'
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { ImprintComponent } from './imprint/imprint.component'
     BlockquoteComponent,
     ImageViewComponent,
     FooterComponent,
-    ImprintComponent
+    ImprintComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
