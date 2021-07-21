@@ -15,7 +15,7 @@ export class Stage2Component implements OnInit {
   historicEntries: IHistoryEntry[];
 
   ngOnInit(): void {
-
+    this.translation.onLangChange.asObservable().subscribe(e => this.loadHistoryEntries(e.translations));
     this.translation.get([
         'history_1821',
         'history_1832',

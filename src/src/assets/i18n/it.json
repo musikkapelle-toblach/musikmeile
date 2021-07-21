@@ -1,6 +1,4 @@
 {
-  "webpage_title": "Miglio della musica - Banda Musicale di Dobbiaco",
-  "header_title": "Miglio della musica",
   "home_header_it": "Strada facendo sul Miglio della musica",
   "home_header_it1": "Strada",
   "home_header_it2": "facendo",
@@ -232,5 +230,13 @@
   "imp_sh5_p1": "Questo sito web non utilizza cookies.",
   "imp_sh6": "Crittografia SSL:",
   "imp_sh6_p1": "Questo sito utilizza la crittografia SSL per motivi di sicurezza e per proteggere la trasmissione di contenuti confidenziali, come le richieste che inviate come gestore del sito. È possibile riconoscere una connessione criptata dal fatto che la riga dell’indirizzo del browser cambia da “http://” a “https://” e dal simbolo della serratura nella barra del browser. Se è abilitata la crittografia SSL, i dati che trasmettete non possono essere letti da terzi.",
-  "imp_sh7": "Sviluppo e realizzazione"
+  "imp_sh7": "Sviluppo e realizzazione",
+  "navbar": {
+    "header_title": "Miglio della musica",
+    "language": "lingua",
+    "languages": {
+      "de": "tedesco",
+      "it": "italiano"
+    }
+  }
 }

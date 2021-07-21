@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import {TranslateService} from '@ngx-translate/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-stage1',
@@ -7,5 +6,4 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrls: ['./stage1.component.scss']
 })
 export class Stage1Component {
-  constructor(public translation: TranslateService) { }
 }
