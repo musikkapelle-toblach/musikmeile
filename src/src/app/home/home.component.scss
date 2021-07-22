@@ -1,6 +1,26 @@
+$fontBambusaProRegular: 'Bambusa Pro Regular';
+$fontAcherusGrotesqueLight: 'acherus-grotesque-light';
+
 .google-maps-home{
     .map-container{
       width: 100%;
       height: 600px;
     }
   }
+
+.home-header {
+  font-family: $fontAcherusGrotesqueLight;
+  color: black;
+}
+
+.home-header-de-bambusa {
+  font-family: $fontBambusaProRegular;
+  font-size: 5rem;
+  margin-left: -20px;
+  margin-right: 15px; 
+}
+
+.home-header-it-bambusa {
+  font-family: $fontBambusaProRegular;
+  font-size: 3rem;
+}

@@ -1,17 +1,17 @@
 <div class="container">
   <div *ngIf="this.translate.currentLang==='de'">
     <h1>
-      <span [translate]="'home_header_de1'" style="font-family:acherus-grotesque-light; color:black;">Auf der Musikmeile unter</span>
-      <span [translate]="'home_header_de2'" style="font-family:Bambusa Pro Regular; font-size: 5rem;">weg</span>
-      <span [translate]="'home_header_de3'" style="font-family:acherus-grotesque-light; color:black;">s</span>
+      <span [translate]="'home_header_de1'" class="home-header">Auf der Musikmeile unter</span>
+      <span [translate]="'home_header_de2'" class="home-header-de-bambusa">weg</span>
+      <span [translate]="'home_header_de3'" class="home-header">s</span>
     </h1>
   </div>
   <div *ngIf="this.translate.currentLang==='it'">
     <h1>
-      <span [translate]="'home_header_it1'" style="font-family:Bambusa Pro Regular; font-size: 3rem;">Strada</span>
+      <span [translate]="'home_header_it1'" class="home-header-it-bambusa">Strada</span>
       <br class="d-md-none"><span class="d-sx-none">&nbsp;</span>
-      <span [translate]="'home_header_it2'" style="font-family:Bambusa Pro Regular; font-size: 3rem;">facendo</span><br>
-      <span [translate]="'home_header_it3'" style="font-family:acherus-grotesque-light; color:black;">sul Miglio della musica</span>
+      <span [translate]="'home_header_it2'" class="home-header-it-bambusa">facendo</span><br>
+      <span [translate]="'home_header_it3'" class="home-header">sul Miglio della musica</span>
     </h1>
   </div>
   <p [translate]="'home_p1'">200 Jahre Musikkapelle, 200 Jahre gemeinsam unterwegs - als Kapelle, für die Dorfgemeinschaft, im Dorf und außerhalb.

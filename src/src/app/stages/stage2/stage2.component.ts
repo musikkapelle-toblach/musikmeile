@@ -129,14 +129,14 @@ export class Stage2Component implements OnInit {
       {title: '1955', body: e.history_1955},
       {title: '1957', body: e.history_1957},
       {title: '1963', body: e.history_1963},
-      {title: '1966', body: e.history_1966},
       {
-        title: '1971',
-        body: e.history_1971,
+        title: '1966',
+        body: e.history_1966,
         image: {
           url: '/assets/images/stage2/1966-scaled.png'
         }
       },
+      {title: '1971', body: e.history_1971},
       {title: '1977', body: e.history_1977},
       {
         title: '1985',
