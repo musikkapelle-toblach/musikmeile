@@ -18,7 +18,7 @@ jobs:
           node-version: 16
       - run: npm ci
         working-directory: src
-      - run: npm build --prod
+      - run: npm run build --prod
         working-directory: src        
 #      - run: npm test
 #        working-directory: src
