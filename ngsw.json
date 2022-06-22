@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1655927597094,
+  "timestamp": 1655932450017,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.png",
         "/index.html",
-        "/main.39a3af5e7ec6726bbd16.js",
+        "/main.7634aa61efb0092b.js",
         "/manifest.webmanifest",
-        "/polyfills.8162a19ee7cdfdaaa6af.js",
-        "/runtime.3629815ace5d4d9d7455.js",
-        "/scripts.61e66efb3207763e07ab.js",
-        "/styles.03a992c66cc90df1c4a2.css"
+        "/polyfills.3c782c2727f0d8ad.js",
+        "/runtime.31a2c3802d6926e3.js",
+        "/scripts.d8f5150472efd12a.js",
+        "/styles.c48630e9d8e55cff.css"
       ],
       "patterns": []
     },
@@ -30,8 +30,8 @@
         "ignoreVary": true
       },
       "urls": [
-        "/Bambusa Pro Regular.f56033e625e31e01dbc5.ttf",
-        "/acherus-grotesque-light.665de249ce4322a91f9c.ttf",
+        "/Bambusa Pro Regular.658d171ae90a48ca.ttf",
+        "/acherus-grotesque-light.2984a2e6df9c2eb0.ttf",
         "/assets/fonts/Bambusa Pro Regular.ttf",
         "/assets/fonts/acherus-grotesque-light.ttf",
         "/assets/i18n/de.json",
@@ -101,8 +101,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/Bambusa Pro Regular.f56033e625e31e01dbc5.ttf": "8092d591abd6fab24f275849d3c3acf2f9b8515f",
-    "/acherus-grotesque-light.665de249ce4322a91f9c.ttf": "2ce43e66bfa961eeabb7e37f179037335c304431",
+    "/Bambusa Pro Regular.658d171ae90a48ca.ttf": "8092d591abd6fab24f275849d3c3acf2f9b8515f",
+    "/acherus-grotesque-light.2984a2e6df9c2eb0.ttf": "2ce43e66bfa961eeabb7e37f179037335c304431",
     "/assets/fonts/Bambusa Pro Regular.ttf": "8092d591abd6fab24f275849d3c3acf2f9b8515f",
     "/assets/fonts/acherus-grotesque-light.ttf": "2ce43e66bfa961eeabb7e37f179037335c304431",
     "/assets/i18n/de.json": "c595023d1267d73e29064458a6ea6e593e3f66a9",
@@ -167,13 +167,13 @@
     "/assets/images/stage6/Ensemblespiel.jpg": "ecb605efd4f72adc5158e6b2c3c3a9181ce6aa22",
     "/assets/images/stage6/Instrumentvorstellung 2008.JPG": "dfe227dbbc0657d0c9bbaf0336272c15c8e10b6a",
     "/favicon.png": "3a6e929bc8f9a74972d17a7e829f865140da27ce",
-    "/index.html": "dad3bdf775b8c7b1e3eef94ba12e8efb0c968511",
-    "/main.39a3af5e7ec6726bbd16.js": "f066fdf7b440ba5325bb1ece22bc224fe5b82a21",
+    "/index.html": "b1806a7268b6a43484182e367efed44e21889c04",
+    "/main.7634aa61efb0092b.js": "f2c0d3074b0b5de367889913fb8818478007a210",
     "/manifest.webmanifest": "8f15f192e306db1403d5f74c12aa0bbfd8f83cc0",
-    "/polyfills.8162a19ee7cdfdaaa6af.js": "e03daf728b4978db0bfc975cee7437eee3327e58",
-    "/runtime.3629815ace5d4d9d7455.js": "7ac1dd625a5bf24cecabc6491bb7510b1272a384",
-    "/scripts.61e66efb3207763e07ab.js": "e0d84ebe07f985b893c6ef6ab68d111f02f38084",
-    "/styles.03a992c66cc90df1c4a2.css": "eaec2bcf5b8cf99a3fb81a0f30934a20d13a8c78"
+    "/polyfills.3c782c2727f0d8ad.js": "c1fe7fcdee79553b5d47610d2a6fb37389981d8a",
+    "/runtime.31a2c3802d6926e3.js": "12a4a913778c74b47ab42eaf3d94833a99bff49a",
+    "/scripts.d8f5150472efd12a.js": "bd22c4f57e60aac064c5d9d9875509d63f99a411",
+    "/styles.c48630e9d8e55cff.css": "c2c11a743f1beec4dee1ff346d7450bd31cfaea6"
   },
   "navigationUrls": [
     {
